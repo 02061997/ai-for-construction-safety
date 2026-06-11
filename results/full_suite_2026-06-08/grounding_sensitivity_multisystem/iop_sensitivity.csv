@@ -1,0 +1,6 @@
+system,System,selection_role,status,not_run_reason,IoP@0.3,IoP@0.5,Pred Containment@0.3,Mean Tightness,No-box Rate
+GROVE_full_paper_archived,GROVE full,Named comparison,COMPUTED,,0.8219,0.7692,0.8436,0.9265,0.0036
+baseline_direct_qwen35_9b,Qwen 3.5 9B single-pass,Named comparison,COMPUTED,,0.5263,0.4413,0.4895,0.8585,0.3928
+baseline_direct_qwen35_27b,Qwen 3.5 27B single-pass,Named comparison; Best single-pass by identification F1,COMPUTED,,0.5628,0.4899,0.6484,0.8579,0.3220
+baseline_direct_llama32_vision_11b_apr2026,Llama 3.2 Vision 11B,Named comparison; Best single-pass by GT coverage,COMPUTED,,0.4291,0.2713,0.4056,0.6489,0.1151
+baseline_direct_gemma4_31b,Gemma 4 31B,Named comparison,COMPUTED,,0.4332,0.3360,0.6828,0.7926,0.2927

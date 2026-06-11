@@ -1,0 +1,248 @@
+image_name,coco_file_name,annotation_id,raw_category,canonical_category,bbox_xyxy,bbox_xywh,area
+3.jpeg,3_jpeg.rf.7pyimL3sa0JpMU25a6uX.jpeg,1,Fall from Height,Fall_Hazard,"[59.0, 6.0, 266.0, 176.5]","[59, 6, ""207.00"", ""170.50""]",35293.5
+3.jpeg,3_jpeg.rf.7pyimL3sa0JpMU25a6uX.jpeg,2,Housekeeping,Housekeeping_Storage,"[0.0, 0.0, 286.0, 176.0]","[0, 0, ""286.00"", ""176.00""]",50336
+58.jpg,58_jpg.rf.1sqBOd4KxekZQy8nwWQL.jpg,3,Other,Other,"[0.0, 0.0, 1280.0, 720.0]","[0, 0, ""1280.00"", ""720.00""]",921600
+43.jpeg,43_jpeg.rf.OHmUfHXDbrzAikpughgH.jpeg,4,Electrical Hazard,Electrocution_Hazard,"[30.0, 60.0, 118.34, 204.0]","[30, 60, ""88.34"", ""144.00""]",12720.96
+40.jpg,40_jpg.rf.YWBvrm2ANW7retqtdiO6.jpg,5,Electrical Hazard,Electrocution_Hazard,"[125.0, 35.0, 303.46000000000004, 237.64]","[125, 35, ""178.46"", ""202.64""]",36163.134
+40.jpg,40_jpg.rf.YWBvrm2ANW7retqtdiO6.jpg,6,Housekeeping,Housekeeping_Storage,"[199.0, 39.0, 305.42, 237.71]","[199, 39, ""106.42"", ""198.71""]",21146.718
+45.jpeg,45_jpeg.rf.cWXaQ2idpZnTFkVQGjqN.jpeg,7,Electrical Hazard,Electrocution_Hazard,"[50.0, 66.0, 186.9, 226.33]","[50, 66, ""136.90"", ""160.33""]",21949.177
+6.jpeg,6_jpeg.rf.Fg4MEAGascydOXfa2TTI.jpeg,8,Signage and Communication,Other,"[0.0, 12.0, 260.0, 194.29]","[0, 12, ""260.00"", ""182.29""]",47395.4
+6.jpeg,6_jpeg.rf.Fg4MEAGascydOXfa2TTI.jpeg,9,Fall from Height,Fall_Hazard,"[41.0, 31.0, 247.79, 194.43]","[41, 31, ""206.79"", ""163.43""]",33795.69
+9.jpeg,9_jpeg.rf.R4Sl2SxTMScVc81WvePR.jpeg,10,Fall from Height,Fall_Hazard,"[0.0, 0.0, 276.0, 182.0]","[0, 0, ""276.00"", ""182.00""]",50232
+9.jpeg,9_jpeg.rf.R4Sl2SxTMScVc81WvePR.jpeg,11,Signage and Communication,Other,"[0.0, 0.0, 276.0, 182.0]","[0, 0, ""276.00"", ""182.00""]",50232
+7.jpeg,7_jpeg.rf.AMpM1SZdRHZgIw3ZJGLy.jpeg,12,Fall from Height,Fall_Hazard,"[0.0, 39.0, 259.0, 194.43]","[0, 39, ""259.00"", ""155.43""]",40256.37
+7.jpeg,7_jpeg.rf.AMpM1SZdRHZgIw3ZJGLy.jpeg,13,Signage and Communication,Other,"[0.0, 30.0, 259.0, 193.71]","[0, 30, ""259.00"", ""163.71""]",42400.89
+192.jpg,192_jpg.rf.IKdcEQrE5rYbDCSw5UaX.jpg,14,PPE Deficiency,PPE_Violation,"[181.0, 1.0, 373.87, 253.93]","[181, 1, ""192.87"", ""252.93""]",48782.609
+192.jpg,192_jpg.rf.IKdcEQrE5rYbDCSw5UaX.jpg,15,Fall from Height,Fall_Hazard,"[130.0, 0.0, 476.28, 475.41]","[130, 0, ""346.28"", ""475.41""]",164624.975
+192.jpg,192_jpg.rf.IKdcEQrE5rYbDCSw5UaX.jpg,16,Equipment and Machine Safety,CaughtInBetween_hazard,"[132.0, 192.0, 464.74, 473.16]","[132, 192, ""332.74"", ""281.16""]",93553.178
+139.jpg,139_jpg.rf.4MwyPlraMedLecWsbFZy.jpg,17,PPE Deficiency,PPE_Violation,"[80.0, 0.0, 190.86, 106.62]","[80, 0, ""110.86"", ""106.62""]",11819.893
+139.jpg,139_jpg.rf.4MwyPlraMedLecWsbFZy.jpg,18,Equipment and Machine Safety,CaughtInBetween_hazard,"[15.0, 0.0, 300.43, 217.55]","[15, 0, ""285.43"", ""217.55""]",62095.297
+26.jpeg,26_jpeg.rf.hDLO7JFWsOhxZtpegJNn.jpeg,19,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 101.0, 86.32, 139.68]","[0, 101, ""86.32"", ""38.68""]",3338.858
+26.jpeg,26_jpeg.rf.hDLO7JFWsOhxZtpegJNn.jpeg,20,Housekeeping,Housekeeping_Storage,"[86.0, 75.0, 208.95999999999998, 144.26999999999998]","[86, 75, ""122.96"", ""69.27""]",8517.439
+65.jpg,65_jpg.rf.1z6E5ACWzASHbES8BL7P.jpg,21,PPE Deficiency,PPE_Violation,"[240.0, 54.0, 368.93, 479.71]","[240, 54, ""128.93"", ""425.71""]",54886.79
+199.jpeg,199_jpeg.rf.uhSyS0I79eaO1dL04f53.jpeg,22,Fall from Height,Fall_Hazard,"[246.0, 40.0, 542.28, 426.01]","[246, 40, ""296.28"", ""386.01""]",114367.043
+199.jpeg,199_jpeg.rf.uhSyS0I79eaO1dL04f53.jpeg,23,Other,Other,"[0.0, 0.0, 612.0, 450.0]","[0, 0, ""612.00"", ""450.00""]",275400
+203.png,203_png.rf.2MNR3taw2GOMyTTGCPwz.png,24,Other,Other,"[106.0, 38.0, 249.43, 215.26]","[106, 38, ""143.43"", ""177.26""]",25424.402
+163.jpeg,163_jpeg.rf.WDyFrfqmWKZseQd8Bdvh.jpeg,25,Slip and Trip Hazard,Housekeeping_Storage,"[1.0, 73.0, 193.54, 168.25]","[1, 73, ""192.54"", ""95.25""]",18339.435
+163.jpeg,163_jpeg.rf.WDyFrfqmWKZseQd8Bdvh.jpeg,26,Housekeeping,Housekeeping_Storage,"[0.0, 66.0, 176.82, 168.0]","[0, 66, ""176.82"", ""102.00""]",18035.64
+72.jpg,72_jpg.rf.mS2fz1aQ8PvjcOR4t29b.jpg,27,PPE Deficiency,PPE_Violation,"[122.0, 51.0, 271.8, 359.95]","[122, 51, ""149.80"", ""308.95""]",46280.71
+72.jpg,72_jpg.rf.mS2fz1aQ8PvjcOR4t29b.jpg,28,PPE Deficiency,PPE_Violation,"[414.0, 30.0, 599.1800000000001, 360.0]","[414, 30, ""185.18"", ""330.00""]",61109.4
+146.jpg,146_jpg.rf.BH8eM1nH0wR64de0OQIt.jpg,29,Fall from Height,Fall_Hazard,"[189.0, 118.0, 403.64, 600.86]","[189, 118, ""214.64"", ""482.86""]",103641.07
+146.jpg,146_jpg.rf.BH8eM1nH0wR64de0OQIt.jpg,30,Slip and Trip Hazard,Housekeeping_Storage,"[347.0, 304.0, 640.3299999999999, 597.8199999999999]","[347, 304, ""293.33"", ""293.82""]",86186.221
+46.jpg,46_jpg.rf.5DSLLeWoWI2sDhTkHOwb.jpg,31,PPE Deficiency,PPE_Violation,"[222.0, 5.0, 344.63, 236.2]","[222, 5, ""122.63"", ""231.20""]",28352.056
+46.jpg,46_jpg.rf.5DSLLeWoWI2sDhTkHOwb.jpg,32,Electrical Hazard,Electrocution_Hazard,"[217.0, 1.0, 381.68, 449.5]","[217, 1, ""164.68"", ""448.50""]",73858.98
+46.jpg,46_jpg.rf.5DSLLeWoWI2sDhTkHOwb.jpg,33,Fall from Height,Fall_Hazard,"[118.0, 0.0, 380.64, 500.0]","[118, 0, ""262.64"", ""500.00""]",131320
+140.jpeg,140_jpeg.rf.fzSDqDjiA8nvopMysLnv.jpeg,34,PPE Deficiency,PPE_Violation,"[0.0, 0.0, 480.0, 360.0]","[0, 0, ""480.00"", ""360.00""]",172800
+140.jpeg,140_jpeg.rf.fzSDqDjiA8nvopMysLnv.jpeg,35,Housekeeping,Housekeeping_Storage,"[0.0, 2.0, 479.52, 360.1]","[0, 2, ""479.52"", ""358.10""]",171716.112
+28.webp,28_webp.rf.AwafWJeZCdKkpq7LqQWw.webp,36,Slip and Trip Hazard,Housekeeping_Storage,"[326.0, 440.0, 419.29, 495.31]","[326, 440, ""93.29"", ""55.31""]",5159.87
+174.jpg,174_jpg.rf.h6I6H1rUEGLGWEGdaM8o.jpg,37,PPE Deficiency,PPE_Violation,"[304.0, 1.0, 562.52, 312.7]","[304, 1, ""258.52"", ""311.70""]",80580.684
+174.jpg,174_jpg.rf.h6I6H1rUEGLGWEGdaM8o.jpg,38,PPE Deficiency,PPE_Violation,"[129.0, 239.0, 351.9, 483.88]","[129, 239, ""222.90"", ""244.88""]",54583.752
+174.jpg,174_jpg.rf.h6I6H1rUEGLGWEGdaM8o.jpg,39,Fall from Height,Fall_Hazard,"[298.0, 2.0, 602.14, 640.0]","[298, 2, ""304.14"", ""638.00""]",194041.32
+174.jpg,174_jpg.rf.h6I6H1rUEGLGWEGdaM8o.jpg,40,Equipment and Machine Safety,CaughtInBetween_hazard,"[12.0, 238.0, 527.54, 640.0]","[12, 238, ""515.54"", ""402.00""]",207247.08
+150.jpg,150_jpg.rf.OeQtHc6Wq7soQFoWnpNb.jpg,41,Fall from Height,Fall_Hazard,"[1.0, 0.0, 561.45, 480.0]","[1, 0, ""560.45"", ""480.00""]",269016
+41.jpg,41_jpg.rf.iMjs3Ei20kOOiiNC2Zhq.jpg,42,PPE Deficiency,PPE_Violation,"[74.0, 0.0, 1000.25, 722.57]","[74, 0, ""926.25"", ""722.57""]",669280.463
+41.jpg,41_jpg.rf.iMjs3Ei20kOOiiNC2Zhq.jpg,43,Fall from Height,Fall_Hazard,"[59.0, 0.0, 1000.25, 777.24]","[59, 0, ""941.25"", ""777.24""]",731577.15
+164.jpeg,164_jpeg.rf.LenQPrcjdW89A6jbty9D.jpeg,44,Fall from Height,Fall_Hazard,"[69.0, 0.0, 130.92000000000002, 139.32]","[69, 0, ""61.92"", ""139.32""]",8626.694
+164.jpeg,164_jpeg.rf.LenQPrcjdW89A6jbty9D.jpeg,45,Signage and Communication,Other,"[0.0, 76.0, 275.0, 181.7]","[0, 76, ""275.00"", ""105.70""]",29067.5
+36.jpg,36_jpg.rf.cHQsdOhcoJzYbIV6XTz1.jpg,46,PPE Deficiency,PPE_Violation,"[779.0, 63.0, 1070.2, 621.15]","[779, 63, ""291.20"", ""558.15""]",162533.28
+36.jpg,36_jpg.rf.cHQsdOhcoJzYbIV6XTz1.jpg,47,Slip and Trip Hazard,Housekeeping_Storage,"[413.0, 427.0, 658.65, 542.99]","[413, 427, ""245.65"", ""115.99""]",28492.943
+148.jpeg,148_jpeg.rf.rFX1SBT6hdmYwNQ1gogE.jpeg,48,Fall from Height,Fall_Hazard,"[135.0, 0.0, 189.24, 192.0]","[135, 0, ""54.24"", ""192.00""]",10414.08
+81.png,81_png.rf.moAs6hURgQNuNNBZmhub.png,49,Signage and Communication,Other,"[8.0, 175.0, 489.48, 374.3]","[8, 175, ""481.48"", ""199.30""]",95958.964
+121.jpeg,121_jpeg.rf.sjhYNh3EmqGZarzSgZfD.jpeg,50,PPE Deficiency,PPE_Violation,"[86.0, 26.0, 186.82, 175.95]","[86, 26, ""100.82"", ""149.95""]",15117.959
+121.jpeg,121_jpeg.rf.sjhYNh3EmqGZarzSgZfD.jpeg,51,Electrical Hazard,Electrocution_Hazard,"[69.0, 115.0, 205.96, 192.76]","[69, 115, ""136.96"", ""77.76""]",10650.01
+121.jpeg,121_jpeg.rf.sjhYNh3EmqGZarzSgZfD.jpeg,52,Hazards,Other,"[76.0, 22.0, 184.82999999999998, 120.76]","[76, 22, ""108.83"", ""98.76""]",10748.051
+155.jpg,155_jpg.rf.FllejracVBcWqKNPOkzR.jpg,53,PPE Deficiency,PPE_Violation,"[85.0, 8.0, 511.49, 597.39]","[85, 8, ""426.49"", ""589.39""]",251368.941
+155.jpg,155_jpg.rf.FllejracVBcWqKNPOkzR.jpg,54,Fall from Height,Fall_Hazard,"[1.0, 0.0, 640.0, 640.0]","[1, 0, ""639.00"", ""640.00""]",408960
+155.jpg,155_jpg.rf.FllejracVBcWqKNPOkzR.jpg,55,Electrical Hazard,Electrocution_Hazard,"[43.0, 389.0, 523.26, 617.48]","[43, 389, ""480.26"", ""228.48""]",109729.805
+161.jpeg,161_jpeg.rf.eo9lTwJLSImqIbWojL5o.jpeg,56,Fall from Height,Fall_Hazard,"[100.0, 33.0, 246.75, 183.03]","[100, 33, ""146.75"", ""150.03""]",22016.903
+161.jpeg,161_jpeg.rf.eo9lTwJLSImqIbWojL5o.jpeg,57,Signage and Communication,Other,"[1.0, 0.0, 275.46, 183.0]","[1, 0, ""274.46"", ""183.00""]",50226.18
+193.jpeg,193_jpeg.rf.jwaHo1jN5y9H15hdHHBg.jpeg,58,Fall from Height,Fall_Hazard,"[39.0, 51.0, 173.11, 253.78]","[39, 51, ""134.11"", ""202.78""]",27194.826
+193.jpeg,193_jpeg.rf.jwaHo1jN5y9H15hdHHBg.jpeg,59,Electrical Hazard,Electrocution_Hazard,"[9.0, 13.0, 157.22, 257.53999999999996]","[9, 13, ""148.22"", ""244.54""]",36245.719
+145.jpg,145_jpg.rf.ggZUYHhYgNwnXJLOJsaD.jpg,60,PPE Deficiency,PPE_Violation,"[78.0, 53.0, 321.74, 619.79]","[78, 53, ""243.74"", ""566.79""]",138149.395
+145.jpg,145_jpg.rf.ggZUYHhYgNwnXJLOJsaD.jpg,61,Fall from Height,Fall_Hazard,"[68.0, 41.0, 347.17, 640.17]","[68, 41, ""279.17"", ""599.17""]",167270.289
+145.jpg,145_jpg.rf.ggZUYHhYgNwnXJLOJsaD.jpg,62,Falling Object Hazard,StruckBy_Hazard,"[222.0, 163.0, 290.3, 292.93]","[222, 163, ""68.30"", ""129.93""]",8874.219
+141.jpg,141_jpg.rf.WphZlgtVQZEQ90VSfrCE.jpg,63,Housekeeping,Housekeeping_Storage,"[122.0, 97.0, 242.45999999999998, 200.6]","[122, 97, ""120.46"", ""103.60""]",12479.656
+141.jpg,141_jpg.rf.WphZlgtVQZEQ90VSfrCE.jpg,64,Slip and Trip Hazard,Housekeeping_Storage,"[115.0, 88.0, 249.98, 213.66]","[115, 88, ""134.98"", ""125.66""]",16961.587
+141.jpg,141_jpg.rf.WphZlgtVQZEQ90VSfrCE.jpg,65,Slip and Trip Hazard,Housekeeping_Storage,"[175.0, 11.0, 241.69, 73.88]","[175, 11, ""66.69"", ""62.88""]",4193.467
+141.jpg,141_jpg.rf.WphZlgtVQZEQ90VSfrCE.jpg,66,Housekeeping,Housekeeping_Storage,"[171.0, 6.0, 251.94, 79.64]","[171, 6, ""80.94"", ""73.64""]",5960.422
+42.webp,42_webp.rf.Dl7PV4YkJIbB6NlnWaOO.webp,67,Slip and Trip Hazard,Housekeeping_Storage,"[2.0, 942.0, 2119.48, 1198.0]","[2, 942, ""2117.48"", ""256.00""]",542074.88
+42.webp,42_webp.rf.Dl7PV4YkJIbB6NlnWaOO.webp,68,Electrical Hazard,Electrocution_Hazard,"[716.0, 172.0, 1737.49, 1160.1100000000001]","[716, 172, ""1021.49"", ""988.11""]",1009344.484
+195.jpg,195_jpg.rf.mpkpHnrouWPzkMAjfZ8R.jpg,69,Fall from Height,Fall_Hazard,"[650.0, 139.0, 848.79, 534.98]","[650, 139, ""198.79"", ""395.98""]",78716.864
+195.jpg,195_jpg.rf.mpkpHnrouWPzkMAjfZ8R.jpg,70,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 3.0, 1280.0, 532.51]","[0, 3, ""1280.00"", ""529.51""]",677772.8
+195.jpg,195_jpg.rf.mpkpHnrouWPzkMAjfZ8R.jpg,71,Housekeeping,Housekeeping_Storage,"[0.0, 0.0, 1280.0, 855.0]","[0, 0, ""1280.00"", ""855.00""]",1094400
+78.jpg,78_jpg.rf.7gycxPkdyMMnDinr6yt9.jpg,72,Fall from Height,Fall_Hazard,"[686.0, 176.0, 917.24, 720.44]","[686, 176, ""231.24"", ""544.44""]",125896.306
+78.jpg,78_jpg.rf.7gycxPkdyMMnDinr6yt9.jpg,73,Housekeeping,Housekeeping_Storage,"[1019.0, 448.0, 1280.1100000000001, 720.22]","[1019, 448, ""261.11"", ""272.22""]",71079.364
+78.jpg,78_jpg.rf.7gycxPkdyMMnDinr6yt9.jpg,74,Slip and Trip Hazard,Housekeeping_Storage,"[896.0, 439.0, 1280.44, 720.11]","[896, 439, ""384.44"", ""281.11""]",108069.928
+149.jpeg,149_jpeg.rf.u2uVE7OYUVfoGXCUeIeb.jpeg,75,Fall from Height,Fall_Hazard,"[16.0, 26.0, 276.28, 151.74]","[16, 26, ""260.28"", ""125.74""]",32727.607
+157.jpeg,157_jpeg.rf.qIlrsSsuHR23JazLsMvO.jpeg,76,Signage and Communication,Other,"[1.0, 49.0, 308.02, 163.98000000000002]","[1, 49, ""307.02"", ""114.98""]",35301.16
+71.jpg,71_jpg.rf.nrC5BmxM44NSiCZ37E7p.jpg,77,Housekeeping,Housekeeping_Storage,"[1206.0, 583.0, 1500.29, 868.0899999999999]","[1206, 583, ""294.29"", ""285.09""]",83899.136
+71.jpg,71_jpg.rf.nrC5BmxM44NSiCZ37E7p.jpg,78,Slip and Trip Hazard,Housekeeping_Storage,"[1340.0, 664.0, 1500.0, 835.9300000000001]","[1340, 664, ""160.00"", ""171.93""]",27508.8
+130.jpeg,130_jpeg.rf.y31NLbdcTb3Mo1EFPNku.jpeg,79,PPE Deficiency,PPE_Violation,"[80.0, 73.0, 201.84, 173.89]","[80, 73, ""121.84"", ""100.89""]",12292.438
+130.jpeg,130_jpeg.rf.y31NLbdcTb3Mo1EFPNku.jpeg,80,Fall from Height,Fall_Hazard,"[106.0, 0.0, 170.5, 78.87]","[106, 0, ""64.50"", ""78.87""]",5087.115
+130.jpeg,130_jpeg.rf.y31NLbdcTb3Mo1EFPNku.jpeg,81,Signage and Communication,Other,"[2.0, 102.0, 275.29, 183.05]","[2, 102, ""273.29"", ""81.05""]",22150.155
+135.jpg,135_jpg.rf.wmh0VEGje2ofW1cB5GuB.jpg,82,Fall from Height,Fall_Hazard,"[265.0, 224.0, 318.82, 307.58]","[265, 224, ""53.82"", ""83.58""]",4498.276
+135.jpg,135_jpg.rf.wmh0VEGje2ofW1cB5GuB.jpg,83,Electrical Hazard,Electrocution_Hazard,"[4.0, 208.0, 337.03, 640.5]","[4, 208, ""333.03"", ""432.50""]",144035.475
+5.webp,5_webp.rf.AmYVp9PnlEbjIcZlyHop.webp,84,Fall from Height,Fall_Hazard,"[91.0, 20.0, 1288.82, 386.13]","[91, 20, ""1197.82"", ""366.13""]",438557.837
+5.webp,5_webp.rf.AmYVp9PnlEbjIcZlyHop.webp,85,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 0.0, 1400.0, 400.0]","[0, 0, ""1400.00"", ""400.00""]",560000
+5.webp,5_webp.rf.AmYVp9PnlEbjIcZlyHop.webp,86,Signage and Communication,Other,"[94.0, 24.0, 1253.82, 367.61]","[94, 24, ""1159.82"", ""343.61""]",398525.75
+166.jpg,166_jpg.rf.skT7hNM1X4eb8jAWAWlb.jpg,87,PPE Deficiency,PPE_Violation,"[0.0, 0.0, 210.94, 235.43]","[0, 0, ""210.94"", ""235.43""]",49661.604
+166.jpg,166_jpg.rf.skT7hNM1X4eb8jAWAWlb.jpg,88,Equipment and Machine Safety,CaughtInBetween_hazard,"[0.0, 128.0, 243.83, 263.87]","[0, 128, ""243.83"", ""135.87""]",33129.182
+166.jpg,166_jpg.rf.skT7hNM1X4eb8jAWAWlb.jpg,89,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 64.0, 161.15, 202.85]","[0, 64, ""161.15"", ""138.85""]",22375.678
+189.png,189_png.rf.C1VHZTRH93YioBoZAXWp.png,90,Electrical Hazard,Electrocution_Hazard,"[97.0, 294.0, 435.57, 846.86]","[97, 294, ""338.57"", ""552.86""]",187181.81
+189.png,189_png.rf.C1VHZTRH93YioBoZAXWp.png,91,Equipment and Machine Safety,CaughtInBetween_hazard,"[76.0, 281.0, 1011.71, 891.0]","[76, 281, ""935.71"", ""610.00""]",570783.1
+108.jpg,108_jpg.rf.05lMcvegkTUFvI25Ib27.jpg,92,PPE Deficiency,PPE_Violation,"[139.0, 31.0, 441.73, 318.27]","[139, 31, ""302.73"", ""287.27""]",86965.247
+108.jpg,108_jpg.rf.05lMcvegkTUFvI25Ib27.jpg,93,Slip and Trip Hazard,Housekeeping_Storage,"[1.0, 175.0, 551.0, 576.8199999999999]","[1, 175, ""550.00"", ""401.82""]",221001
+108.jpg,108_jpg.rf.05lMcvegkTUFvI25Ib27.jpg,94,Fall from Height,Fall_Hazard,"[36.0, 27.0, 531.45, 577.0]","[36, 27, ""495.45"", ""550.00""]",272497.5
+144.jpg,144_jpg.rf.zQuGx1sE5ysCjnpqccI4.jpg,95,PPE Deficiency,PPE_Violation,"[164.0, 0.0, 489.81, 612.68]","[164, 0, ""325.81"", ""612.68""]",199617.271
+144.jpg,144_jpg.rf.zQuGx1sE5ysCjnpqccI4.jpg,96,Fall from Height,Fall_Hazard,"[53.0, 0.0, 608.64, 640.0]","[53, 0, ""555.64"", ""640.00""]",355609.6
+184.jpg,184_jpg.rf.eUpG8FQcXiKz7EdcBllP.jpg,97,PPE Deficiency,PPE_Violation,"[321.0, 108.0, 567.66, 294.86]","[321, 108, ""246.66"", ""186.86""]",46090.888
+184.jpg,184_jpg.rf.eUpG8FQcXiKz7EdcBllP.jpg,98,PPE Deficiency,PPE_Violation,"[168.0, 232.0, 400.11, 534.1700000000001]","[168, 232, ""232.11"", ""302.17""]",70136.679
+184.jpg,184_jpg.rf.eUpG8FQcXiKz7EdcBllP.jpg,99,Fall from Height,Fall_Hazard,"[264.0, 76.0, 640.0, 581.3]","[264, 76, ""376.00"", ""505.30""]",189992.8
+183.png,183_png.rf.Lp0BSm7A562NnUKwba5j.png,100,Equipment and Machine Safety,CaughtInBetween_hazard,"[373.0, 371.0, 731.5699999999999, 855.29]","[373, 371, ""358.57"", ""484.29""]",173651.865
+183.png,183_png.rf.Lp0BSm7A562NnUKwba5j.png,101,PPE Deficiency,PPE_Violation,"[301.0, 230.0, 691.0, 838.57]","[301, 230, ""390.00"", ""608.57""]",237342.3
+183.png,183_png.rf.Lp0BSm7A562NnUKwba5j.png,102,Signage and Communication,Other,"[1.0, 0.0, 1023.57, 1024.0]","[1, 0, ""1022.57"", ""1024.00""]",1047111.68
+183.png,183_png.rf.Lp0BSm7A562NnUKwba5j.png,103,Housekeeping,Housekeeping_Storage,"[7.0, 657.0, 1023.86, 1023.86]","[7, 657, ""1016.86"", ""366.86""]",373045.26
+183.png,183_png.rf.Lp0BSm7A562NnUKwba5j.png,104,Slip and Trip Hazard,Housekeeping_Storage,"[1.0, 607.0, 1023.57, 1023.86]","[1, 607, ""1022.57"", ""416.86""]",426268.53
+1.jpg,1_jpg.rf.V2CrTulCz9aj7zfVaUvZ.jpg,105,Other,Other,"[566.0, 246.0, 711.79, 375.21000000000004]","[566, 246, ""145.79"", ""129.21""]",18837.526
+186.png,186_png.rf.DB3UP2NAnAUArTLLxYCw.png,106,Electrical Hazard,Electrocution_Hazard,"[383.0, 310.0, 675.86, 882.86]","[383, 310, ""292.86"", ""572.86""]",167767.78
+171.png,171_png.rf.FO1G4zolIqsTRObJ2srU.png,107,Fall from Height,Fall_Hazard,"[326.0, 233.0, 1024.29, 1024.1399999999999]","[326, 233, ""698.29"", ""791.14""]",552445.151
+171.png,171_png.rf.FO1G4zolIqsTRObJ2srU.png,108,Slip and Trip Hazard,Housekeeping_Storage,"[624.0, 586.0, 1023.71, 918.86]","[624, 586, ""399.71"", ""332.86""]",133047.471
+182.png,182_png.rf.bvDEWG7T36bq6NaxH0ns.png,109,Equipment and Machine Safety,CaughtInBetween_hazard,"[349.0, 0.0, 1024.4299999999998, 565.71]","[349, 0, ""675.43"", ""565.71""]",382097.505
+182.png,182_png.rf.bvDEWG7T36bq6NaxH0ns.png,110,Housekeeping,Housekeeping_Storage,"[1.0, 429.0, 1023.57, 1024.4299999999998]","[1, 429, ""1022.57"", ""595.43""]",608868.855
+182.png,182_png.rf.bvDEWG7T36bq6NaxH0ns.png,111,Slip and Trip Hazard,Housekeeping_Storage,"[429.0, 490.0, 661.86, 881.4300000000001]","[429, 490, ""232.86"", ""391.43""]",91148.39
+194.png,194_png.rf.RMGWrNhuouq8lpcG6VF8.png,112,Fall from Height,Fall_Hazard,"[141.0, 651.0, 921.0, 941.0]","[141, 651, ""780.00"", ""290.00""]",226200
+194.png,194_png.rf.RMGWrNhuouq8lpcG6VF8.png,113,Electrical Hazard,Electrocution_Hazard,"[0.0, 539.0, 1024.0, 1024.43]","[0, 539, ""1024.00"", ""485.43""]",497080.32
+194.png,194_png.rf.RMGWrNhuouq8lpcG6VF8.png,114,Housekeeping,Housekeeping_Storage,"[7.0, 513.0, 1023.86, 1024.1399999999999]","[7, 513, ""1016.86"", ""511.14""]",519757.82
+194.png,194_png.rf.RMGWrNhuouq8lpcG6VF8.png,115,Slip and Trip Hazard,Housekeeping_Storage,"[4.0, 489.0, 1023.71, 1024.4299999999998]","[4, 489, ""1019.71"", ""535.43""]",545983.325
+197.png,197_png.rf.MQMP9iPX97ha030UqRm3.png,116,PPE Deficiency,PPE_Violation,"[277.0, 114.0, 777.0, 1023.71]","[277, 114, ""500.00"", ""909.71""]",454855
+197.png,197_png.rf.MQMP9iPX97ha030UqRm3.png,117,Housekeeping,Housekeeping_Storage,"[1.0, 750.0, 1023.57, 1024.0]","[1, 750, ""1022.57"", ""274.00""]",280184.18
+197.png,197_png.rf.MQMP9iPX97ha030UqRm3.png,118,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 729.0, 1024.0, 1024.43]","[0, 729, ""1024.00"", ""295.43""]",302520.32
+11.webp,11_webp.rf.qxDDeHe6ySjzRWHf2Yh7.webp,119,Signage and Communication,Other,"[0.0, 111.0, 1440.0, 793.86]","[0, 111, ""1440.00"", ""682.86""]",983318.4
+11.webp,11_webp.rf.qxDDeHe6ySjzRWHf2Yh7.webp,120,PPE Deficiency,PPE_Violation,"[219.0, 303.0, 391.86, 751.5699999999999]","[219, 303, ""172.86"", ""448.57""]",77539.81
+200.png,200_png.rf.3Bz9VwObCu17NsgOuqsS.png,121,PPE Deficiency,PPE_Violation,"[737.0, 823.0, 1340.33, 1809.67]","[737, 823, ""603.33"", ""986.67""]",595287.611
+200.png,200_png.rf.3Bz9VwObCu17NsgOuqsS.png,122,Fall from Height,Fall_Hazard,"[723.0, 803.0, 1473.0, 1926.33]","[723, 803, ""750.00"", ""1123.33""]",842497.5
+200.png,200_png.rf.3Bz9VwObCu17NsgOuqsS.png,123,Housekeeping,Housekeeping_Storage,"[493.0, 1430.0, 1563.0, 1916.67]","[493, 1430, ""1070.00"", ""486.67""]",520736.9
+200.png,200_png.rf.3Bz9VwObCu17NsgOuqsS.png,124,Slip and Trip Hazard,Housekeeping_Storage,"[387.0, 1390.0, 1563.67, 1943.33]","[387, 1390, ""1176.67"", ""553.33""]",651086.811
+116.jpeg,116_jpeg.rf.2mBAM5w2OxYGyXmoCIXX.jpeg,125,Fall from Height,Fall_Hazard,"[101.0, 31.0, 123.76, 88.93]","[101, 31, ""22.76"", ""57.93""]",1318.487
+116.jpeg,116_jpeg.rf.2mBAM5w2OxYGyXmoCIXX.jpeg,126,Equipment and Machine Safety,CaughtInBetween_hazard,"[64.0, 31.0, 127.78999999999999, 201.0]","[64, 31, ""63.79"", ""170.00""]",10844.3
+116.jpeg,116_jpeg.rf.2mBAM5w2OxYGyXmoCIXX.jpeg,127,Signage and Communication,Other,"[43.0, 142.0, 169.9, 235.45]","[43, 142, ""126.90"", ""93.45""]",11858.805
+152.jpeg,152_jpeg.rf.4LRW0rZBlCBh0SamUXgm.jpeg,128,Fall from Height,Fall_Hazard,"[402.0, 107.0, 561.0, 533.0]","[402, 107, ""159.00"", ""426.00""]",67734
+152.jpeg,152_jpeg.rf.4LRW0rZBlCBh0SamUXgm.jpeg,129,Fall from Height,Fall_Hazard,"[699.0, 262.0, 903.0, 635.0]","[699, 262, ""204.00"", ""373.00""]",76092
+152.jpeg,152_jpeg.rf.4LRW0rZBlCBh0SamUXgm.jpeg,130,Slip and Trip Hazard,Housekeeping_Storage,"[1.0, 332.0, 1200.0, 675.0]","[1, 332, ""1199.00"", ""343.00""]",411257
+120.jpeg,120_jpeg.rf.5LnkQiwMh30N8919SEtX.jpeg,131,Electrical Hazard,Electrocution_Hazard,"[84.0, 30.0, 162.98000000000002, 178.23]","[84, 30, ""78.98"", ""148.23""]",11707.205
+123.jpg,123_jpg.rf.8ILplLsTblKzhsWTm5dt.jpg,132,Fall from Height,Fall_Hazard,"[329.0, 165.0, 468.28, 359.44]","[329, 165, ""139.28"", ""194.44""]",27081.603
+123.jpg,123_jpg.rf.8ILplLsTblKzhsWTm5dt.jpg,133,Signage and Communication,Other,"[159.0, 308.0, 611.53, 407.58]","[159, 308, ""452.53"", ""99.58""]",45062.937
+128.png,128_png.rf.8buUxTpVwNXJyCE3kslh.png,134,PPE Deficiency,PPE_Violation,"[225.0, 52.0, 328.46, 228.86]","[225, 52, ""103.46"", ""176.86""]",18297.936
+128.png,128_png.rf.8buUxTpVwNXJyCE3kslh.png,135,Hazards,Other,"[37.0, 53.0, 329.47, 227.84]","[37, 53, ""292.47"", ""174.84""]",51135.455
+177.png,177_png.rf.CZwpnZRq6zRW2WhNE4zt.png,136,Fall from Height,Fall_Hazard,"[149.0, 461.0, 789.0, 849.5699999999999]","[149, 461, ""640.00"", ""388.57""]",248684.8
+177.png,177_png.rf.CZwpnZRq6zRW2WhNE4zt.png,137,Housekeeping,Housekeeping_Storage,"[694.0, 527.0, 1023.71, 1007.0]","[694, 527, ""329.71"", ""480.00""]",158260.8
+177.png,177_png.rf.CZwpnZRq6zRW2WhNE4zt.png,138,Slip and Trip Hazard,Housekeeping_Storage,"[3.0, 630.0, 1024.1399999999999, 1024.0]","[3, 630, ""1021.14"", ""394.00""]",402329.16
+187.png,187_png.rf.ROWMj4Qb6iMid5Nsm4jg.png,139,Electrical Hazard,Electrocution_Hazard,"[190.0, 214.0, 1024.0, 779.71]","[190, 214, ""834.00"", ""565.71""]",471802.14
+187.png,187_png.rf.ROWMj4Qb6iMid5Nsm4jg.png,140,Fall from Height,Fall_Hazard,"[213.0, 253.0, 618.71, 1024.1399999999999]","[213, 253, ""405.71"", ""771.14""]",312859.209
+187.png,187_png.rf.ROWMj4Qb6iMid5Nsm4jg.png,141,Housekeeping,Housekeeping_Storage,"[293.0, 959.0, 1024.1399999999999, 1024.43]","[293, 959, ""731.14"", ""65.43""]",47838.49
+187.png,187_png.rf.ROWMj4Qb6iMid5Nsm4jg.png,142,Slip and Trip Hazard,Housekeeping_Storage,"[427.0, 899.0, 1023.86, 1024.43]","[427, 899, ""596.86"", ""125.43""]",74864.15
+179.png,179_png.rf.omkf19Ek5rY5uykpmlam.png,143,Fall from Height,Fall_Hazard,"[21.0, 483.0, 1023.57, 1024.1399999999999]","[21, 483, ""1002.57"", ""541.14""]",542530.73
+179.png,179_png.rf.omkf19Ek5rY5uykpmlam.png,144,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 593.0, 1024.0, 894.4300000000001]","[0, 593, ""1024.00"", ""301.43""]",308664.32
+179.png,179_png.rf.omkf19Ek5rY5uykpmlam.png,145,Housekeeping,Housekeeping_Storage,"[0.0, 576.0, 1024.0, 911.71]","[0, 576, ""1024.00"", ""335.71""]",343767.04
+185.png,185_png.rf.nMtqekAbN35W0hoiXZei.png,146,Electrical Hazard,Electrocution_Hazard,"[361.0, 90.0, 513.86, 344.28999999999996]","[361, 90, ""152.86"", ""254.29""]",38870.769
+185.png,185_png.rf.nMtqekAbN35W0hoiXZei.png,147,Fall from Height,Fall_Hazard,"[3.0, 60.0, 648.71, 294.28999999999996]","[3, 60, ""645.71"", ""234.29""]",151283.396
+185.png,185_png.rf.nMtqekAbN35W0hoiXZei.png,148,Housekeeping,Housekeeping_Storage,"[59.0, 174.0, 623.29, 918.29]","[59, 174, ""564.29"", ""744.29""]",419995.404
+185.png,185_png.rf.nMtqekAbN35W0hoiXZei.png,149,Slip and Trip Hazard,Housekeeping_Storage,"[3.0, 821.0, 1024.1399999999999, 1023.5699999999999]","[3, 821, ""1021.14"", ""202.57""]",206852.33
+176.png,176_png.rf.RzR6xcTwsRwHnS890JCk.png,150,Housekeeping,Housekeeping_Storage,"[191.0, 191.0, 809.57, 986.71]","[191, 191, ""618.57"", ""795.71""]",492202.335
+176.png,176_png.rf.RzR6xcTwsRwHnS890JCk.png,151,Fall from Height,Fall_Hazard,"[456.0, 196.0, 728.86, 683.14]","[456, 196, ""272.86"", ""487.14""]",132921.02
+176.png,176_png.rf.RzR6xcTwsRwHnS890JCk.png,152,Slip and Trip Hazard,Housekeeping_Storage,"[219.0, 437.0, 794.71, 972.71]","[219, 437, ""575.71"", ""535.71""]",308413.604
+188.png,188_png.rf.pxXUQa5nHT1R4hkFTTTT.png,153,Housekeeping,Housekeeping_Storage,"[1.0, 511.0, 1023.57, 1023.57]","[1, 511, ""1022.57"", ""512.57""]",524138.705
+188.png,188_png.rf.pxXUQa5nHT1R4hkFTTTT.png,154,Electrical Hazard,Electrocution_Hazard,"[313.0, 207.0, 578.71, 625.5699999999999]","[313, 207, ""265.71"", ""418.57""]",111218.235
+188.png,188_png.rf.pxXUQa5nHT1R4hkFTTTT.png,155,Slip and Trip Hazard,Housekeeping_Storage,"[3.0, 464.0, 1024.1399999999999, 778.29]","[3, 464, ""1021.14"", ""314.29""]",320934.091
+191.png,191_png.rf.iHeQNKM16kLgVdi0kO68.png,156,Fall from Height,Fall_Hazard,"[509.0, 144.0, 599.0, 272.57]","[509, 144, ""90.00"", ""128.57""]",11571.3
+191.png,191_png.rf.iHeQNKM16kLgVdi0kO68.png,157,Housekeeping,Housekeeping_Storage,"[471.0, 791.0, 1023.57, 1023.5699999999999]","[471, 791, ""552.57"", ""232.57""]",128511.205
+191.png,191_png.rf.iHeQNKM16kLgVdi0kO68.png,158,Falling Object Hazard,StruckBy_Hazard,"[117.0, 4.0, 502.71, 895.43]","[117, 4, ""385.71"", ""891.43""]",343833.465
+191.png,191_png.rf.iHeQNKM16kLgVdi0kO68.png,159,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 719.0, 1024.0, 1023.69]","[0, 719, ""1024.00"", ""304.69""]",312002.56
+175.png,175_png.rf.auRwB3R5y9NipcggTRyu.png,160,PPE Deficiency,PPE_Violation,"[427.0, 249.0, 747.0, 537.5699999999999]","[427, 249, ""320.00"", ""288.57""]",92342.4
+175.png,175_png.rf.auRwB3R5y9NipcggTRyu.png,161,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 311.0, 1024.0, 1023.57]","[0, 311, ""1024.00"", ""712.57""]",729671.68
+175.png,175_png.rf.auRwB3R5y9NipcggTRyu.png,162,Fall from Height,Fall_Hazard,"[6.0, 74.0, 1024.29, 1023.71]","[6, 74, ""1018.29"", ""949.71""]",967080.196
+190.png,190_png.rf.hZZdrCHlZMZv27Q7YCBK.png,163,Housekeeping,Housekeeping_Storage,"[0.0, 327.0, 1024.0, 1023.86]","[0, 327, ""1024.00"", ""696.86""]",713584.64
+190.png,190_png.rf.hZZdrCHlZMZv27Q7YCBK.png,164,Slip and Trip Hazard,Housekeeping_Storage,"[161.0, 409.0, 983.86, 1024.4299999999998]","[161, 409, ""822.86"", ""615.43""]",506412.73
+190.png,190_png.rf.hZZdrCHlZMZv27Q7YCBK.png,165,Electrical Hazard,Electrocution_Hazard,"[131.0, 370.0, 992.43, 1024.0]","[131, 370, ""861.43"", ""654.00""]",563375.22
+190.png,190_png.rf.hZZdrCHlZMZv27Q7YCBK.png,166,PPE Deficiency,PPE_Violation,"[384.0, 111.0, 796.86, 618.14]","[384, 111, ""412.86"", ""507.14""]",209377.82
+180.png,180_png.rf.ppZsXsz1odDDQ8SwPXYU.png,167,Fall from Height,Fall_Hazard,"[276.0, 44.0, 831.71, 186.86]","[276, 44, ""555.71"", ""142.86""]",79388.731
+180.png,180_png.rf.ppZsXsz1odDDQ8SwPXYU.png,168,Signage and Communication,Other,"[3.0, 626.0, 321.57, 958.86]","[3, 626, ""318.57"", ""332.86""]",106039.21
+173.png,173_png.rf.qaERShY1sLzZIAqcsoQJ.png,169,Fall from Height,Fall_Hazard,"[0.0, 199.0, 1024.0, 1024.4299999999998]","[0, 199, ""1024.00"", ""825.43""]",845240.32
+173.png,173_png.rf.qaERShY1sLzZIAqcsoQJ.png,170,Slip and Trip Hazard,Housekeeping_Storage,"[241.0, 356.0, 978.14, 948.86]","[241, 356, ""737.14"", ""592.86""]",437020.82
+173.png,173_png.rf.qaERShY1sLzZIAqcsoQJ.png,171,PPE Deficiency,PPE_Violation,"[330.0, 260.0, 575.71, 657.14]","[330, 260, ""245.71"", ""397.14""]",97581.269
+196.png,196_png.rf.vbgRV29F7aLmwsn6WrbQ.png,172,Fall from Height,Fall_Hazard,"[527.0, 353.0, 629.86, 591.5699999999999]","[527, 353, ""102.86"", ""238.57""]",24539.31
+196.png,196_png.rf.vbgRV29F7aLmwsn6WrbQ.png,173,Signage and Communication,Other,"[291.0, 710.0, 1023.57, 990.0]","[291, 710, ""732.57"", ""280.00""]",205119.6
+196.png,196_png.rf.vbgRV29F7aLmwsn6WrbQ.png,174,Fall from Height,Fall_Hazard,"[517.0, 353.0, 657.0, 623.0]","[517, 353, ""140.00"", ""270.00""]",37800
+154.png,154_png.rf.rTgilhZWKUUB7VAhVsy9.png,175,Fall from Height,Fall_Hazard,"[66.0, 246.0, 493.78, 570.44]","[66, 246, ""427.78"", ""324.44""]",138788.943
+138.jpg,138_jpg.rf.DKBjnwICNwmV8e7GEo0M.jpg,176,Other,Other,"[63.0, 76.0, 308.48, 182.3]","[63, 76, ""245.48"", ""106.30""]",26094.524
+138.jpg,138_jpg.rf.DKBjnwICNwmV8e7GEo0M.jpg,177,Hazards,Other,"[63.0, 25.0, 311.7, 190.14]","[63, 25, ""248.70"", ""165.14""]",41070.318
+172.png,172_png.rf.wvdOmeyg0u6VdljpByFo.png,178,PPE Deficiency,PPE_Violation,"[294.0, 141.0, 598.29, 549.5699999999999]","[294, 141, ""304.29"", ""408.57""]",124323.765
+172.png,172_png.rf.wvdOmeyg0u6VdljpByFo.png,179,Housekeeping,Housekeeping_Storage,"[143.0, 654.0, 493.0, 706.86]","[143, 654, ""350.00"", ""52.86""]",18501
+172.png,172_png.rf.wvdOmeyg0u6VdljpByFo.png,180,Equipment and Machine Safety,CaughtInBetween_hazard,"[263.0, 74.0, 770.14, 982.57]","[263, 74, ""507.14"", ""908.57""]",460772.19
+16.webp,16_webp.rf.EiCnO0gMCoqVlHOup3M9.webp,181,Fall from Height,Fall_Hazard,"[8.0, 327.0, 1200.67, 1200.33]","[8, 327, ""1192.67"", ""873.33""]",1041594.491
+16.webp,16_webp.rf.EiCnO0gMCoqVlHOup3M9.webp,182,Signage and Communication,Other,"[0.0, 160.0, 1201.0, 1200.0]","[0, 160, ""1201.00"", ""1040.00""]",1249040
+127.png,127_png.rf.Ep9u26kpXRRRMV60m7wa.png,183,PPE Deficiency,PPE_Violation,"[8.0, 25.0, 281.6, 286.62]","[8, 25, ""273.60"", ""261.62""]",71579.232
+110.jpg,110_jpg.rf.F75xYdAx8yER1pRhp3xg.jpg,184,PPE Deficiency,PPE_Violation,"[56.0, 13.0, 132.20999999999998, 239.9]","[56, 13, ""76.21"", ""226.90""]",17292.049
+110.jpg,110_jpg.rf.F75xYdAx8yER1pRhp3xg.jpg,185,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 167.0, 203.0, 247.76]","[0, 167, ""203.00"", ""80.76""]",16394.28
+132.jpeg,132_jpeg.rf.GlnoLJpbx3mFVE08U7rc.jpeg,186,Electrical Hazard,Electrocution_Hazard,"[66.0, 6.0, 196.4, 124.44]","[66, 6, ""130.40"", ""118.44""]",15444.576
+136.jpg,136_jpg.rf.IdOZct5pMFnlZeOAD8vJ.jpg,187,PPE Deficiency,PPE_Violation,"[1.0, 47.0, 291.91, 353.49]","[1, 47, ""290.91"", ""306.49""]",89161.006
+198.png,198_png.rf.9CSnin8ptsHSglm99GPk.png,188,Housekeeping,Housekeeping_Storage,"[391.0, 379.0, 1023.57, 1024.4299999999998]","[391, 379, ""632.57"", ""645.43""]",408279.655
+198.png,198_png.rf.9CSnin8ptsHSglm99GPk.png,189,Slip and Trip Hazard,Housekeeping_Storage,"[94.0, 494.0, 1023.71, 1023.71]","[94, 494, ""929.71"", ""529.71""]",492476.684
+198.png,198_png.rf.9CSnin8ptsHSglm99GPk.png,190,Electrical Hazard,Electrocution_Hazard,"[239.0, 470.0, 881.86, 1024.0]","[239, 470, ""642.86"", ""554.00""]",356144.44
+131.jpeg,131_jpeg.rf.NzYdQM46x53u4Ez0KXhm.jpeg,191,Fall from Height,Fall_Hazard,"[27.0, 100.0, 78.50999999999999, 224.14]","[27, 100, ""51.51"", ""124.14""]",6394.451
+131.jpeg,131_jpeg.rf.NzYdQM46x53u4Ez0KXhm.jpeg,192,Electrical Hazard,Electrocution_Hazard,"[46.0, 95.0, 86.56, 136.99]","[46, 95, ""40.56"", ""41.99""]",1703.114
+137.jpg,137_jpg.rf.QKnzm3LFWocmS0NsKOrT.jpg,193,PPE Deficiency,PPE_Violation,"[284.0, 387.0, 397.99, 563.64]","[284, 387, ""113.99"", ""176.64""]",20135.194
+137.jpg,137_jpg.rf.QKnzm3LFWocmS0NsKOrT.jpg,194,PPE Deficiency,PPE_Violation,"[312.0, 54.0, 396.45, 201.83]","[312, 54, ""84.45"", ""147.83""]",12484.244
+137.jpg,137_jpg.rf.QKnzm3LFWocmS0NsKOrT.jpg,195,Fall from Height,Fall_Hazard,"[310.0, 50.0, 557.14, 591.72]","[310, 50, ""247.14"", ""541.72""]",133880.681
+137.jpg,137_jpg.rf.QKnzm3LFWocmS0NsKOrT.jpg,196,Slip and Trip Hazard,Housekeeping_Storage,"[237.0, 523.0, 640.3299999999999, 640.5]","[237, 523, ""403.33"", ""117.50""]",47391.275
+111.jpg,111_jpg.rf.Ue9mn1dyvpanORxb1gOE.jpg,197,PPE Deficiency,PPE_Violation,"[16.0, 16.0, 141.68, 176.27]","[16, 16, ""125.68"", ""160.27""]",20142.734
+111.jpg,111_jpg.rf.Ue9mn1dyvpanORxb1gOE.jpg,198,Housekeeping,Housekeeping_Storage,"[2.0, 93.0, 265.11, 176.51999999999998]","[2, 93, ""263.11"", ""83.52""]",21974.947
+111.jpg,111_jpg.rf.Ue9mn1dyvpanORxb1gOE.jpg,199,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 114.0, 265.0, 175.89]","[0, 114, ""265.00"", ""61.89""]",16400.85
+202.png,202_png.rf.LlO3MELFc91s4DAzmU3d.png,200,Falling Object Hazard,StruckBy_Hazard,"[1.0, 286.0, 1023.57, 1024.29]","[1, 286, ""1022.57"", ""738.29""]",754953.205
+202.png,202_png.rf.LlO3MELFc91s4DAzmU3d.png,201,Electrical Hazard,Electrocution_Hazard,"[3.0, 256.0, 1024.1399999999999, 1024.29]","[3, 256, ""1021.14"", ""768.29""]",784531.651
+202.png,202_png.rf.LlO3MELFc91s4DAzmU3d.png,202,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 280.0, 1024.0, 1024.0]","[0, 280, ""1024.00"", ""744.00""]",761856
+114.jpeg,114_jpeg.rf.ZF2JDOh7ans2oeKEbJIW.jpeg,203,Fall from Height,Fall_Hazard,"[68.0, 18.0, 136.89, 120.22]","[68, 18, ""68.89"", ""102.22""]",7041.936
+114.jpeg,114_jpeg.rf.ZF2JDOh7ans2oeKEbJIW.jpeg,204,PPE Deficiency,PPE_Violation,"[67.0, 16.0, 140.7, 122.3]","[67, 16, ""73.70"", ""106.30""]",7834.31
+114.jpeg,114_jpeg.rf.ZF2JDOh7ans2oeKEbJIW.jpeg,205,Equipment and Machine Safety,CaughtInBetween_hazard,"[28.0, 193.0, 99.48, 258.67]","[28, 193, ""71.48"", ""65.67""]",4694.092
+109.jpg,109_jpg.rf.iWh7WAX3eDogXvFaIS8p.jpg,206,PPE Deficiency,PPE_Violation,"[132.0, 39.0, 226.72, 162.06]","[132, 39, ""94.72"", ""123.06""]",11656.243
+109.jpg,109_jpg.rf.iWh7WAX3eDogXvFaIS8p.jpg,207,Fall from Height,Fall_Hazard,"[123.0, 35.0, 233.82999999999998, 193.72]","[123, 35, ""110.83"", ""158.72""]",17590.938
+126.png,126_png.rf.094Yw2jdHb99MYZpVrlI.png,208,Fall from Height,Fall_Hazard,"[647.0, 257.0, 1337.0, 2048.33]","[647, 257, ""690.00"", ""1791.33""]",1236017.7
+147.jpg,147_jpg.rf.WYgYvKFLijQOllO6o25U.jpg,209,Fall from Height,Fall_Hazard,"[76.0, 0.0, 367.06, 270.41]","[76, 0, ""291.06"", ""270.41""]",78705.535
+129.jpeg,129_jpeg.rf.RJr9WbzfcbpSZwvY8awX.jpeg,210,Fall from Height,Fall_Hazard,"[64.0, 25.0, 204.15, 182.88]","[64, 25, ""140.15"", ""157.88""]",22126.882
+129.jpeg,129_jpeg.rf.RJr9WbzfcbpSZwvY8awX.jpeg,211,Electrical Hazard,Electrocution_Hazard,"[57.0, 30.0, 151.45999999999998, 101.24]","[57, 30, ""94.46"", ""71.24""]",6729.33
+118.jpg,118_jpg.rf.VTA8RJkruw1Rnc911SYL.jpg,212,Housekeeping,Housekeeping_Storage,"[95.0, 463.0, 245.0, 580.27]","[95, 463, ""150.00"", ""117.27""]",17590.5
+118.jpg,118_jpg.rf.VTA8RJkruw1Rnc911SYL.jpg,213,PPE Deficiency,PPE_Violation,"[231.0, 309.0, 379.18, 543.55]","[231, 309, ""148.18"", ""234.55""]",34755.619
+118.jpg,118_jpg.rf.VTA8RJkruw1Rnc911SYL.jpg,214,PPE Deficiency,PPE_Violation,"[17.0, 168.0, 165.18, 546.1800000000001]","[17, 168, ""148.18"", ""378.18""]",56038.712
+118.jpg,118_jpg.rf.VTA8RJkruw1Rnc911SYL.jpg,215,Fall from Height,Fall_Hazard,"[2.0, 158.0, 640.18, 639.8199999999999]","[2, 158, ""638.18"", ""481.82""]",307487.888
+134.jpg,134_jpg.rf.YO1WXMjpx8FYf3w9qfrO.jpg,216,Fall from Height,Fall_Hazard,"[86.0, 0.0, 247.44, 345.53]","[86, 0, ""161.44"", ""345.53""]",55782.363
+134.jpg,134_jpg.rf.YO1WXMjpx8FYf3w9qfrO.jpg,217,Slip and Trip Hazard,Housekeeping_Storage,"[25.0, 435.0, 556.63, 640.0]","[25, 435, ""531.63"", ""205.00""]",108984.15
+124.jpg,124_jpg.rf.M195LH1vk20RkQY5nbm9.jpg,218,Fall from Height,Fall_Hazard,"[130.0, 127.0, 509.01, 573.11]","[130, 127, ""379.01"", ""446.11""]",169080.151
+124.jpg,124_jpg.rf.M195LH1vk20RkQY5nbm9.jpg,219,PPE Deficiency,PPE_Violation,"[177.0, 228.0, 523.79, 571.56]","[177, 228, ""346.79"", ""343.56""]",119143.172
+133.jpeg,133_jpeg.rf.eNhdEpSH1A6HXSpqqXXQ.jpeg,220,Fall from Height,Fall_Hazard,"[71.0, 84.0, 130.38, 215.34]","[71, 84, ""59.38"", ""131.34""]",7798.969
+133.jpeg,133_jpeg.rf.eNhdEpSH1A6HXSpqqXXQ.jpeg,221,Housekeeping,Housekeeping_Storage,"[12.0, 162.0, 167.62, 206.64]","[12, 162, ""155.62"", ""44.64""]",6946.877
+133.jpeg,133_jpeg.rf.eNhdEpSH1A6HXSpqqXXQ.jpeg,222,Slip and Trip Hazard,Housekeeping_Storage,"[3.0, 151.0, 191.27, 212.01]","[3, 151, ""188.27"", ""61.01""]",11486.353
+143.jpg,143_jpg.rf.WC0yAbOv5eFuysEV82so.jpg,223,Fall from Height,Fall_Hazard,"[442.0, 363.0, 499.28, 576.21]","[442, 363, ""57.28"", ""213.21""]",12212.669
+143.jpg,143_jpg.rf.WC0yAbOv5eFuysEV82so.jpg,224,Signage and Communication,Other,"[109.0, 381.0, 639.83, 640.1700000000001]","[109, 381, ""530.83"", ""259.17""]",137575.211
+119.jpeg,119_jpeg.rf.ezQPBlhsacBxLOjw2RRO.jpeg,225,Fall from Height,Fall_Hazard,"[20.0, 39.0, 170.37, 157.2]","[20, 39, ""150.37"", ""118.20""]",17773.734
+119.jpeg,119_jpeg.rf.ezQPBlhsacBxLOjw2RRO.jpeg,226,PPE Deficiency,PPE_Violation,"[21.0, 39.0, 57.61, 136.01999999999998]","[21, 39, ""36.61"", ""97.02""]",3551.902
+119.jpeg,119_jpeg.rf.ezQPBlhsacBxLOjw2RRO.jpeg,227,Slip and Trip Hazard,Housekeeping_Storage,"[17.0, 59.0, 228.43, 202.16]","[17, 59, ""211.43"", ""143.16""]",30268.319
+112.jpg,112_jpg.rf.zIMRrudQOLOyoYaXwhCx.jpg,228,PPE Deficiency,PPE_Violation,"[66.0, 40.0, 163.73000000000002, 141.82]","[66, 40, ""97.73"", ""101.82""]",9950.869
+112.jpg,112_jpg.rf.zIMRrudQOLOyoYaXwhCx.jpg,229,Fall from Height,Fall_Hazard,"[57.0, 32.0, 164.05, 142.91]","[57, 32, ""107.05"", ""110.91""]",11872.915
+117.jpeg,117_jpeg.rf.oQ21SNzn9vVedmeVQVRm.jpeg,230,Fall from Height,Fall_Hazard,"[9.0, 13.0, 186.78, 251.21]","[9, 13, ""177.78"", ""238.21""]",42348.974
+117.jpeg,117_jpeg.rf.oQ21SNzn9vVedmeVQVRm.jpeg,231,Electrical Hazard,Electrocution_Hazard,"[113.0, 14.0, 157.09, 206.15]","[113, 14, ""44.09"", ""192.15""]",8471.894
+113.jpg,113_jpg.rf.jcO3jzFtqrbrSs6CUxKk.jpg,232,PPE Deficiency,PPE_Violation,"[34.0, 0.0, 148.47, 182.37]","[34, 0, ""114.47"", ""182.37""]",20875.894
+115.jpeg,115_jpeg.rf.fTSqDhQJ2ryJdiB1LgGo.jpeg,233,PPE Deficiency,PPE_Violation,"[97.0, 41.0, 133.07, 107.79]","[97, 41, ""36.07"", ""66.79""]",2409.115
+115.jpeg,115_jpeg.rf.fTSqDhQJ2ryJdiB1LgGo.jpeg,234,Fall from Height,Fall_Hazard,"[96.0, 40.0, 132.43, 107.86]","[96, 40, ""36.43"", ""67.86""]",2472.14
+115.jpeg,115_jpeg.rf.fTSqDhQJ2ryJdiB1LgGo.jpeg,235,Slip and Trip Hazard,Housekeeping_Storage,"[97.0, 118.0, 188.79000000000002, 234.07]","[97, 118, ""91.79"", ""116.07""]",10654.065
+115.jpeg,115_jpeg.rf.fTSqDhQJ2ryJdiB1LgGo.jpeg,236,Housekeeping,Housekeeping_Storage,"[94.0, 112.0, 187.93, 253.79]","[94, 112, ""93.93"", ""141.79""]",13318.335
+201.png,201_png.rf.fNMxk0zIKz7mpFQYteIM.png,237,Housekeeping,Housekeeping_Storage,"[0.0, 0.0, 2048.0, 1720.0]","[0, 0, ""2048.00"", ""1720.00""]",3522560
+201.png,201_png.rf.fNMxk0zIKz7mpFQYteIM.png,238,Fall from Height,Fall_Hazard,"[593.0, 797.0, 1963.0, 1733.67]","[593, 797, ""1370.00"", ""936.67""]",1283237.9
+201.png,201_png.rf.fNMxk0zIKz7mpFQYteIM.png,239,Housekeeping,Housekeeping_Storage,"[657.0, 247.0, 2048.33, 1723.67]","[657, 247, ""1391.33"", ""1476.67""]",2054535.271
+122.jpg,122_jpg.rf.ziyCzaYVD1PeHsRN68S5.jpg,240,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 0.0, 341.44, 248.59]","[0, 0, ""341.44"", ""248.59""]",84878.57
+122.jpg,122_jpg.rf.ziyCzaYVD1PeHsRN68S5.jpg,241,Electrical Hazard,Electrocution_Hazard,"[87.0, 41.0, 301.15999999999997, 169.22]","[87, 41, ""214.16"", ""128.22""]",27459.595
+125.png,125_png.rf.Edhb1bTlw9yXFGQb5LM2.png,242,PPE Deficiency,PPE_Violation,"[887.0, 317.0, 1550.33, 1420.33]","[887, 317, ""663.33"", ""1103.33""]",731871.889
+125.png,125_png.rf.Edhb1bTlw9yXFGQb5LM2.png,243,Housekeeping,Housekeeping_Storage,"[0.0, 503.0, 630.0, 1013.0]","[0, 503, ""630.00"", ""510.00""]",321300
+125.png,125_png.rf.Edhb1bTlw9yXFGQb5LM2.png,244,Housekeeping,Housekeeping_Storage,"[1370.0, 560.0, 2048.0, 1076.67]","[1370, 560, ""678.00"", ""516.67""]",350302.26
+125.png,125_png.rf.Edhb1bTlw9yXFGQb5LM2.png,245,Slip and Trip Hazard,Housekeeping_Storage,"[7.0, 1170.0, 2048.33, 2048.0]","[7, 1170, ""2041.33"", ""878.00""]",1792287.74
+181.png,181_png.rf.z50LgxxtsZfgwGrArwLw.png,246,Slip and Trip Hazard,Housekeeping_Storage,"[0.0, 723.0, 1024.0, 1024.1399999999999]","[0, 723, ""1024.00"", ""301.14""]",308367.36
+181.png,181_png.rf.z50LgxxtsZfgwGrArwLw.png,247,Housekeeping,Housekeeping_Storage,"[269.0, 251.0, 707.5699999999999, 789.57]","[269, 251, ""438.57"", ""538.57""]",236200.645

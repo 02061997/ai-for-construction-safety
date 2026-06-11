@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GROVE: Strongest Defensible Paper Claims</title>
+<style>
+:root {
+  --surface: #FCFCFD; --panel: #FFFFFF; --ink: #1F2430; --muted: #6F768A;
+  --line: #D7DBE7; --blue: #EAF1FE; --gold: #FFF4C2; --orange: #FFEDDE;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--ink); font-family: Arial, sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 42px 24px 70px; }
+header, section { margin-bottom: 38px; }
+h1 { font-size: 32px; line-height: 1.12; margin: 0 0 12px; }
+h2 { font-size: 21px; margin: 0 0 14px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+h3 { font-size: 16px; line-height: 1.35; margin: 0 0 8px; }
+p, li { line-height: 1.58; }
+.summary { border-left: 4px solid #5477C4; background: var(--blue); padding: 15px 18px; }
+.claim { background: var(--panel); border: 1px solid var(--line); padding: 16px 18px; margin: 12px 0; }
+.claim p { margin: 6px 0; }
+.caveat { color: #464C55; }
+.source { color: var(--muted); font-size: 13px; }
+figure { margin: 22px 0 30px; }
+figure img { width: 100%; height: auto; display: block; }
+figcaption { color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 8px; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
+th, td { border: 1px solid var(--line); padding: 9px; text-align: left; vertical-align: top; }
+th { background: var(--blue); }
+.language { background: var(--gold); padding: 16px 18px; border-left: 4px solid #B8A037; }
+.avoid { background: var(--orange); padding: 16px 18px; border-left: 4px solid #CC6F47; }
+code { font-family: Menlo, monospace; }
+@media (max-width: 720px) { main { padding: 28px 14px 50px; } h1 { font-size: 26px; } table { font-size: 12px; } }
+</style>
+</head>
+<body>
+<main data-report-audience="technical">
+<header data-contract-section="title">
+  <h1>GROVE: Strongest Defensible Paper Claims</h1>
+</header>
+
+<section data-contract-section="technical-summary">
+  <h2>Technical Summary</h2>
+  <div class="summary">
+    <p><strong>The strongest defensible conclusion is benchmark-specific:</strong>
+    GROVE materially outperforms the best tested single-pass baseline on hazard
+    identification and on strict, category-aware grounding metrics. The paired
+    F1 difference is +0.2047 with 95%
+    CI [0.1353, 0.2728]. The evidence does not
+    establish a universal limit for single-pass VLMs, and raw category-agnostic
+    IoG is not threshold-invariant.</p>
+  </div>
+</section>
+
+<section data-contract-section="key-findings">
+  <h2>Paired evidence supports the primary benchmark claim</h2>
+  <p>All selected paired differences favor GROVE, and every displayed 95%
+  confidence interval excludes zero. This supports comparative claims about
+  the tested systems, while leaving architecture-wide generalization outside
+  the evidence.</p>
+  <figure>
+    <img src="paired_differences.png" alt="Paired GROVE differences with confidence intervals">
+    <figcaption>Paired bootstrap differences over the common 203-image evaluation
+    set. The comparator is Qwen 3.5 27B, the best single-pass baseline by
+    identification F1.</figcaption>
+  </figure>
+  <table><thead><tr><th>Metric</th><th>Difference</th><th>95% CI</th><th>p-value</th></tr></thead><tbody><tr><td>precision</td><td>+0.2135</td><td>[0.1316, 0.2925]</td><td>0.0000</td></tr><tr><td>recall</td><td>+0.1914</td><td>[0.1143, 0.2723]</td><td>0.0000</td></tr><tr><td>f1</td><td>+0.2047</td><td>[0.1353, 0.2728]</td><td>0.0000</td></tr><tr><td>gt_coverage_iog03</td><td>+0.2771</td><td>[0.1767, 0.3820]</td><td>0.0000</td></tr><tr><td>iou_at_0_5</td><td>+0.2838</td><td>[0.2016, 0.3658]</td><td>0.0000</td></tr><tr><td>mean_iou_covering</td><td>+0.1283</td><td>[0.0531, 0.2011]</td><td>0.0020</td></tr><tr><td>category_aware_grounding_success_iog03</td><td>+0.2551</td><td>[0.1675, 0.3398]</td><td>0.0000</td></tr></tbody></table>
+</section>
+
+<section data-contract-section="key-findings">
+  <h2>Use strong claims for supported categories and explicit caution for sparse ones</h2>
+  <p>Fall, electrocution, PPE, and housekeeping/storage have sufficient support
+  and GROVE F1 values near or above 0.78. Struck-by and Caught-in/Between do not
+  support strong category-level conclusions.</p>
+  <figure>
+    <img src="category_evidence.png" alt="Category F1 differences and support">
+    <figcaption>F1 differences versus the best single-pass baseline. Open bars
+    identify categories with at most 10 ground-truth images.</figcaption>
+  </figure>
+  <table><thead><tr><th>Category</th><th>Support</th><th>GROVE F1</th><th>95% CI</th><th>Interpretation</th></tr></thead><tbody><tr><td>Struck-By Hazard</td><td>3</td><td>0.0000</td><td>[0.0000, 0.0000]</td><td>Low support; cite cautiously.</td></tr><tr><td>Caught-In/Between Hazard</td><td>10</td><td>0.1429</td><td>[0.0000, 0.4286]</td><td>Low support; cite cautiously.</td></tr></tbody></table>
+</section>
+
+<section data-contract-section="key-findings">
+  <h2>Grounding is robust under strict localization, not every raw IoG threshold</h2>
+  <p>Llama's broad boxes retain high IoG as the threshold increases, but lose
+  substantially under IoU and category-aware box-and-label criteria. The
+  manuscript should therefore frame GROVE's advantage around joint localization
+  quality rather than claim dominance at every IoG threshold.</p>
+  <figure>
+    <img src="threshold_robustness.png" alt="IoG and IoU threshold robustness">
+    <figcaption>Category-agnostic GT coverage on the same images. IoG measures
+    coverage of the GT region; IoU also penalizes predicted area outside the GT.</figcaption>
+  </figure>
+</section>
+
+<section data-contract-section="scope-data-and-metric-definitions">
+  <h2>Claim-by-claim recommendation</h2>
+  <table><thead><tr><th>Evidence level</th><th>Defensible claim</th><th>Required boundary</th><th>Controlling artifact</th></tr></thead><tbody><tr><td>Strong</td><td>On the 203-image benchmark, GROVE outperformed the best tested single-pass baseline in hazard identification.</td><td>Applies to the tested open-weight systems and benchmark.</td><td>table_2_paired_tests.csv</td></tr><tr><td>Strong</td><td>GROVE&#x27;s grounding advantage is strongest under strict localization and joint box-and-label criteria, rather than every IoG threshold.</td><td>Raw IoG ranking changes because broad boxes can score well.</td><td>table_2_paired_tests.csv; iog/iou/box_label_sensitivity.csv</td></tr><tr><td>Strong</td><td>Performance is strongest on adequately supported categories and should be interpreted cautiously for sparse categories.</td><td>Sparse-category estimates have wide or degenerate intervals.</td><td>table_4_per_category_performance.csv</td></tr><tr><td>Moderate</td><td>Primary GroundingDINO explains most cached grounding coverage, while fallback grounding mainly recovers otherwise ungrounded hazards.</td><td>Fallback-only primary grounding was NOT_RUN.</td><td>table_1_component_ablation_completed.csv</td></tr><tr><td>Moderate</td><td>Path 2 verification and deterministic reconciliation provide small incremental improvements in the matched trace control.</td><td>Descriptive trace-level deltas; not compared with the archived run.</td><td>table_1_component_ablation_completed.csv</td></tr><tr><td>Moderate</td><td>The full system produces fewer false-positive no-hazard images than the tested single-pass baselines.</td><td>Do not attribute the difference causally to compliance rules.</td><td>compliance_ablation_nohazard_fp.csv</td></tr><tr><td>Sensitivity only</td><td>Reporting both seven-category and six-category results improves transparency about the heterogeneous Other category.</td><td>Evaluation-only; it does not measure prompt-level redistribution.</td><td>no_other_ablation.csv</td></tr></tbody></table>
+</section>
+
+<section data-contract-section="methodology">
+  <h2>Scope and Method</h2>
+  <p>The analysis uses the fixed 203-image OSHA-aligned evaluation universe,
+  canonical seven-category taxonomy, cached model outputs, 1,000-image-level
+  bootstrap resamples, and one-to-one greedy category-aware grounding matches.
+  Full GROVE is compared with the best baseline on paired image samples.
+  Trace-derived component removals are compared only with the trace-enabled
+  GROVE control, not with the archived paper-facing run.</p>
+</section>
+
+<section data-contract-section="limitations-uncertainty-and-robustness-checks">
+  <h2>Claims that remain unresolved</h2>
+  <div class="avoid">
+    <ul>
+      <li>Do not claim that fallback-only grounding is effective as a primary grounder.</li>
+      <li>Do not causally attribute low false-positive rates to compliance rules.</li>
+      <li>Do not claim that exact caption-only or modular image-only ablations prove the caption's contribution.</li>
+      <li>Do not claim that output schema is ruled out as an explanation without the matched-schema rerun.</li>
+      <li>Do not claim a universal single-pass VLM ceiling.</li>
+    </ul>
+  </div>
+</section>
+
+<section data-contract-section="recommended-next-steps">
+  <h2>Recommended manuscript wording</h2>
+  <div class="language">
+    <p><strong>Main claim:</strong> "On our 203-image OSHA-aligned benchmark,
+    GROVE outperformed the tested single-pass open-weight VLM baselines in hazard
+    identification and in strict category-aware grounding. The advantage
+    persisted under paired bootstrap comparisons and stricter IoU and
+    box-and-label criteria, although raw category-agnostic IoG rankings varied
+    with threshold because broad boxes can obtain high coverage."</p>
+    <p><strong>Modularity claim:</strong> "The results support modular
+    decomposition under the tested setup. Trace-derived controls indicate small
+    incremental contributions from Path 2 verification and deterministic
+    reconciliation, while primary GroundingDINO accounts for most cached
+    grounding coverage and fallback primarily reduces missing localizations."</p>
+    <p><strong>Category claim:</strong> "Performance is strongest for categories
+    with adequate support; Struck-by and Caught-in/Between estimates remain too
+    sparse for strong category-level conclusions."</p>
+  </div>
+</section>
+
+<section data-contract-section="further-questions">
+  <h2>Highest-value remaining experiments</h2>
+  <ol>
+    <li>Run the matched-schema Qwen 3.5 9B baseline to separate decomposition from formatting effects.</li>
+    <li>Run fallback-only and no-compliance variants to resolve their causal contributions.</li>
+    <li>Add external validation or more examples for Struck-by and Caught-in/Between.</li>
+  </ol>
+</section>
+</main>
+</body>
+</html>

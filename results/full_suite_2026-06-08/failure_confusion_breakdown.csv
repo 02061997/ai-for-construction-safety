@@ -1,0 +1,6 @@
+system,event_type,failure_type,count
+GROVE_full_paper_archived,FN,caption_omission,2
+GROVE_full_paper_archived,FN,reasoning_omission,41
+GROVE_full_paper_archived,FP,fallback_grounding_failure,15
+GROVE_full_paper_archived,FP,primary_grounding_failure,1
+GROVE_full_paper_archived,FP,reasoning_hallucination,47

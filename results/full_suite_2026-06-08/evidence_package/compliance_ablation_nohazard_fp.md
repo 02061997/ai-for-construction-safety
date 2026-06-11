@@ -1,0 +1,6 @@
+| System | system_id | status | n_no_hazard_images | fp_images | no_hazard_fp_image_rate | no_hazard_specificity | not_run_reason |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Full GROVE | GROVE_full_paper_archived | COMPUTED | 98 | 13 | 0.1327 | 0.8673 |  |
+| GROVE-NoComplianceRules | GROVE-NoComplianceRules | NOT_RUN | 98 |  |  |  | Required qwen3.5:9b model is absent from local Ollama manifests; the Ollama server is not running and internet/model downloads are disallowed. |
+| Qwen 3.5 9B single-pass | baseline_direct_qwen35_9b | COMPUTED | 98 | 65 | 0.6633 | 0.3367 |  |
+| Best single-pass baseline | baseline_direct_qwen35_27b | COMPUTED | 98 | 24 | 0.2449 | 0.7551 |  |

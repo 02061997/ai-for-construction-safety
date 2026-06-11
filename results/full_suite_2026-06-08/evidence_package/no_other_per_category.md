@@ -1,0 +1,8 @@
+| system | category | category_label | support_gt_images | TP | FP | FN | precision | precision_ci95_low | precision_ci95_high | recall | recall_ci95_low | recall_ci95_high | f1 | f1_ci95_low | f1_ci95_high | low_support |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GROVE-NoOther-EvalOnly | Fall_Hazard | Fall Hazard | 61 | 58 | 20 | 3 | 0.7436 | 0.6447 | 0.8333 | 0.9508 | 0.8906 | 1.0000 | 0.8345 | 0.7634 | 0.8904 | 0 |
+| GROVE-NoOther-EvalOnly | StruckBy_Hazard | Struck-By Hazard | 3 | 0 | 1 | 3 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 1 |
+| GROVE-NoOther-EvalOnly | Electrocution_Hazard | Electrocution Hazard | 24 | 22 | 4 | 2 | 0.8462 | 0.7059 | 0.9630 | 0.9167 | 0.8000 | 1.0000 | 0.8800 | 0.7742 | 0.9615 | 0 |
+| GROVE-NoOther-EvalOnly | CaughtInBetween_hazard | Caught-In/Between Hazard | 10 | 1 | 3 | 9 | 0.2500 | 0.0000 | 1.0000 | 0.1000 | 0.0000 | 0.3333 | 0.1429 | 0.0000 | 0.4000 | 1 |
+| GROVE-NoOther-EvalOnly | PPE_Violation | PPE Violation | 40 | 37 | 18 | 3 | 0.6727 | 0.5490 | 0.7917 | 0.9250 | 0.8286 | 1.0000 | 0.7789 | 0.6829 | 0.8608 | 0 |
+| GROVE-NoOther-EvalOnly | Housekeeping_Storage | Housekeeping/Storage | 48 | 40 | 13 | 8 | 0.7547 | 0.6333 | 0.8611 | 0.8333 | 0.7234 | 0.9333 | 0.7921 | 0.6931 | 0.8710 | 0 |

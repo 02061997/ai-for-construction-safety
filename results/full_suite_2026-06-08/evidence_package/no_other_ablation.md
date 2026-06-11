@@ -1,0 +1,5 @@
+| System | status | exactness | TP | FP | FN | precision | recall | micro_f1 | macro_f1 | f1_ci95 | gt_coverage_iog03 | pred_coverage_iog03 | no_box_rate | interpretation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Full GROVE (7 categories) | COMPUTED | Exact | 167 | 63 | 43 | 0.7261 | 0.7952 | 0.7591 | 0.5593 | [0.7014, 0.8077] | 0.7449 | 0.6218 | 0.0036 | Primary seven-category result. |
+| GROVE-NoOther-EvalOnly | COMPUTED | Eval-only | 158 | 59 | 28 | 0.7281 | 0.8495 | 0.7841 | 0.5714 | [0.7251, 0.8320] | 0.7568 | 0.6145 | 0.0038 | Six-category evaluation only; does not model category redistribution. |
+| GROVE-NoOther-PromptRerun | NOT_RUN | NOT_RUN |  |  |  |  |  |  |  |  |  |  |  | Exact prompt-level effect remains unmeasured. |

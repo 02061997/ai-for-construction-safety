@@ -1,0 +1,18 @@
+[project]
+name = "ai-for-construction-safety"
+version = "1.0.0"
+description = "Reproducibility package for grounded construction-hazard evaluation."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "matplotlib>=3.9",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "seaborn>=0.13",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3", "ruff>=0.9"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

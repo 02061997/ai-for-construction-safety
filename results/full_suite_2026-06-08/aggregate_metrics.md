@@ -1,0 +1,34 @@
+| system | family | precision | recall | f1 | f1_ci95_low | f1_ci95_high | gt_coverage_iog03 | iou_at_0_5 | no_box_rate | exactness |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GROVE_full_paper_archived | grove_main | 0.7261 | 0.7952 | 0.7591 | 0.7014 | 0.8077 | 0.7449 | 0.5101 | 0.0036 | exact_cached_full_system |
+| baseline_direct_qwen35_27b | baseline_single_pass | 0.5142 | 0.6048 | 0.5558 | 0.4958 | 0.6065 | 0.4696 | 0.2267 | 0.3220 | exact_cached_baseline |
+| baseline_direct_gemma4_31b | baseline_single_pass | 0.6213 | 0.5000 | 0.5541 | 0.4987 | 0.6049 | 0.3320 | 0.1134 | 0.2927 | exact_cached_baseline |
+| ablation_path2_only_no_grounding | ablation | 0.4444 | 0.6476 | 0.5271 | 0.4665 | 0.5821 | 0.0000 | 0.0000 | 1.0000 | posthoc_lower_bound_trace_retained_only |
+| ablation_grounded_final_only | ablation | 0.4128 | 0.6762 | 0.5126 | 0.4517 | 0.5674 | 0.7530 | 0.4980 | 0.0000 | posthoc_grounding_filter |
+| ablation_no_fallback_grounding_drop | ablation | 0.4314 | 0.6286 | 0.5116 | 0.4497 | 0.5637 | 0.7328 | 0.4858 | 0.0139 | posthoc_source_filter |
+| ablation_groundingdino_only | ablation | 0.4323 | 0.6238 | 0.5107 | 0.4524 | 0.5635 | 0.7328 | 0.4858 | 0.0000 | posthoc_source_filter |
+| GROVE_trace_qwen35_9b_final | grove_trace_control | 0.4080 | 0.6762 | 0.5090 | 0.4481 | 0.5629 | 0.7530 | 0.4980 | 0.0120 | exact_cached_trace_full_system |
+| ablation_no_fallback_grounding_boxes_removed | ablation | 0.4080 | 0.6762 | 0.5090 | 0.4481 | 0.5629 | 0.7328 | 0.4858 | 0.1507 | posthoc_box_filter |
+| ablation_no_path2_stage_correction | ablation | 0.4080 | 0.6762 | 0.5090 | 0.4481 | 0.5629 | 0.7530 | 0.4980 | 0.0120 | posthoc_text_match |
+| ablation_gdino_detr_openclip_stack_only | ablation | 0.4087 | 0.6714 | 0.5081 | 0.4492 | 0.5619 | 0.7530 | 0.4980 | 0.0000 | exact_from_trace_grounded_pre_reasoning |
+| ablation_no_reconciliation_union | ablation | 0.4046 | 0.6762 | 0.5062 | 0.4457 | 0.5593 | 0.7530 | 0.4980 | 0.0119 | posthoc_union_rule |
+| ablation_path1_only_no_path2 | ablation | 0.4040 | 0.6714 | 0.5045 | 0.4457 | 0.5574 | 0.7530 | 0.4980 | 0.0120 | exact_from_trace_pre_reasoning |
+| ablation_no_path2_verification | ablation | 0.4040 | 0.6714 | 0.5045 | 0.4457 | 0.5574 | 0.7530 | 0.4980 | 0.0120 | exact_from_trace_pre_reasoning |
+| baseline_direct_gemma4_26b | baseline_single_pass | 0.6585 | 0.3857 | 0.4865 | 0.4315 | 0.5378 | 0.2713 | 0.0931 | 0.2482 | exact_cached_baseline |
+| baseline_direct_qwen_35b | baseline_single_pass | 0.4026 | 0.5810 | 0.4756 | 0.4195 | 0.5279 | 0.4372 | 0.1781 | 0.3629 | exact_cached_baseline |
+| baseline_direct_qwen35_9b | baseline_single_pass | 0.3835 | 0.6190 | 0.4736 | 0.4219 | 0.5229 | 0.3887 | 0.1417 | 0.3928 | exact_cached_baseline |
+| ablation_qwen_image_only_no_grounding | ablation | 0.3835 | 0.6190 | 0.4736 | 0.4219 | 0.5229 | 0.0000 | 0.0000 | 1.0000 | exact_cached_direct_identification_posthoc_no_boxes |
+| ablation_image_only_reasoning | ablation | 0.3835 | 0.6190 | 0.4736 | 0.4219 | 0.5229 | 0.3887 | 0.1417 | 0.3928 | exact_cached_direct |
+| baseline_direct_gemma4_e4b | baseline_single_pass | 0.4145 | 0.5429 | 0.4701 | 0.4141 | 0.5214 | 0.3806 | 0.1377 | 0.3145 | exact_cached_baseline |
+| baseline_direct_qwen35_4b | baseline_single_pass | 0.3757 | 0.6048 | 0.4635 | 0.4038 | 0.5109 | 0.1781 | 0.0769 | 0.7356 | exact_cached_baseline |
+| baseline_direct_qwen_9b | baseline_single_pass | 0.3948 | 0.5095 | 0.4449 | 0.3904 | 0.4926 | 0.3239 | 0.1174 | 0.4401 | exact_cached_baseline |
+| baseline_direct_qwen_4b | baseline_single_pass | 0.3880 | 0.4619 | 0.4217 | 0.3645 | 0.4714 | 0.1741 | 0.0729 | 0.6655 | exact_cached_baseline |
+| baseline_direct_qwen36_35b | baseline_single_pass | 0.3185 | 0.5810 | 0.4115 | 0.3566 | 0.4571 | 0.3968 | 0.1700 | 0.3789 | exact_cached_baseline |
+| baseline_direct_internvl3_5_8b | baseline_single_pass | 0.2942 | 0.6571 | 0.4065 | 0.3492 | 0.4548 | 0.0081 | 0.0081 | 0.3741 | exact_cached_baseline |
+| baseline_direct_gemma4_e2b | baseline_single_pass | 0.3661 | 0.3905 | 0.3779 | 0.3224 | 0.4289 | 0.2470 | 0.0810 | 0.3933 | exact_cached_baseline |
+| baseline_direct_gemma3_4b | baseline_single_pass | 0.3522 | 0.2667 | 0.3035 | 0.2494 | 0.3557 | 0.3522 | 0.0364 | 0.0629 | exact_cached_baseline |
+| baseline_direct_gemma3_12b | baseline_single_pass | 0.3109 | 0.2857 | 0.2978 | 0.2359 | 0.3559 | 0.2105 | 0.0486 | 0.0147 | exact_cached_baseline |
+| ablation_caption_only_keyword_proxy | ablation | 0.1637 | 0.9762 | 0.2804 | 0.2392 | 0.3163 | 0.0000 | 0.0000 | 1.0000 | fallback_caption_keyword_proxy |
+| baseline_direct_qwen35_2b | baseline_single_pass | 0.4568 | 0.1762 | 0.2543 | 0.1905 | 0.3172 | 0.0850 | 0.0243 | 0.4444 | exact_cached_baseline |
+
+_Showing 30 of 32 rows._

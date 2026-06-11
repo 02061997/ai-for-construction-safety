@@ -1,0 +1,6 @@
+system,System,selection_role,status,not_run_reason,Box+Label F1@IoG0.3,Box+Label F1@IoG0.5,Box+Label F1@IoU0.3,Box+Label F1@IoU0.5
+GROVE_full_paper_archived,GROVE full,Named comparison,COMPUTED,,0.4330,0.3678,0.3602,0.3027
+baseline_direct_qwen35_9b,Qwen 3.5 9B single-pass,Named comparison,COMPUTED,,0.1351,0.0976,0.1163,0.0600
+baseline_direct_qwen35_27b,Qwen 3.5 27B single-pass,Named comparison; Best single-pass by identification F1,COMPUTED,,0.2189,0.1674,0.1717,0.1245
+baseline_direct_llama32_vision_11b_apr2026,Llama 3.2 Vision 11B,Named comparison; Best single-pass by GT coverage,COMPUTED,,0.1053,0.1018,0.0561,0.0246
+baseline_direct_gemma4_31b,Gemma 4 31B,Named comparison,COMPUTED,,0.1684,0.1020,0.1173,0.0663

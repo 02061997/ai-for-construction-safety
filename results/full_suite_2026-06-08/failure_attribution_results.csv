@@ -1,0 +1,6 @@
+system,failure_type,count,percent_of_all_f1_errors
+GROVE_full_paper_archived,caption_omission,2,0.0189
+GROVE_full_paper_archived,fallback_grounding_failure,15,0.1415
+GROVE_full_paper_archived,primary_grounding_failure,1,0.0094
+GROVE_full_paper_archived,reasoning_hallucination,47,0.4434
+GROVE_full_paper_archived,reasoning_omission,41,0.3868

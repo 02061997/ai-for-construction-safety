@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Category-aware box and label grounding sensitivity.}
+\label{tab:box\_label\_sensitivity}
+\begin{tabular}{lcccc}
+\toprule
+System & Box+Label F1@IoG0.3 & Box+Label F1@IoG0.5 & Box+Label F1@IoU0.3 & Box+Label F1@IoU0.5 \\
+\midrule
+GROVE full & 0.4330 & 0.3678 & 0.3602 & 0.3027 \\
+Qwen 3.5 9B single-pass & 0.1351 & 0.0976 & 0.1163 & 0.0600 \\
+Qwen 3.5 27B single-pass & 0.2189 & 0.1674 & 0.1717 & 0.1245 \\
+Llama 3.2 Vision 11B & 0.1053 & 0.1018 & 0.0561 & 0.0246 \\
+Gemma 4 31B & 0.1684 & 0.1020 & 0.1173 & 0.0663 \\
+\bottomrule
+\end{tabular}
+\end{table*}

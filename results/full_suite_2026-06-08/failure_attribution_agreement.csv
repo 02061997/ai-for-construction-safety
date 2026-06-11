@@ -1,0 +1,3 @@
+agreement_source,status,n_items,observed_agreement,cohen_kappa,mean_iou,mean_iog_a1_ref,mean_iop_a1_ref,source_path
+failure_attribution_double_annotation,template_created_no_double_annotation_file,106,,,,,,
+existing_gt_box_iaa_matched_pairs,computed_from_existing_file,54,0.8519,,0.7429,0.8309,0.8852,<LOCAL_EVIDENCE_ROOT>/iaa/iaa_matched_pairs.csv

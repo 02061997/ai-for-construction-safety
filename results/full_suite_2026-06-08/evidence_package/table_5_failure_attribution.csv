@@ -1,0 +1,6 @@
+system,failure_type,count,percent_of_all_f1_errors,interpretation
+GROVE_full_paper_archived,caption_omission,2,1.9%,The caption missed a ground-truth hazard cue.
+GROVE_full_paper_archived,fallback_grounding_failure,15,14.1%,Fallback grounding failed after primary grounding was insufficient.
+GROVE_full_paper_archived,primary_grounding_failure,1,0.9%,Primary grounding failed after a correct hazard category was present.
+GROVE_full_paper_archived,reasoning_hallucination,47,44.3%,Reasoning predicted a category absent from ground truth.
+GROVE_full_paper_archived,reasoning_omission,41,38.7%,Reasoning failed to predict a ground-truth category.

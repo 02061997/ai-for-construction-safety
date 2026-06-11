@@ -1,0 +1,11 @@
+artifact,type,purpose
+table_1_full_vs_key_ablations.csv,table,"Modularity, ablation, and fairness summary."
+table_2_paired_tests.csv,table,Paired tests against the best baseline.
+table_3_threshold_sensitivity.csv,table,Threshold stability and grounding stress tests.
+table_4_per_category_performance.csv,table,"Support counts, sparse categories, and category CIs."
+table_5_failure_attribution.csv,table,Causal attribution of errors by stage.
+claim_traceability_matrix.csv,table,Every manuscript claim mapped to evidence.
+figures/figure_1_modular_ablation_map.png,figure,Pipeline modules and ablation removals.
+figures/figure_2_category_metric_gain_heatmap.png,figure,Category-level gains and sparse-category caution.
+figures/figure_3_no_box_grounding_tradeoff.png,figure,No-box rate versus grounding coverage across systems.
+figures/figure_4_threshold_stability.png,figure,Threshold stability and calibration proxy.

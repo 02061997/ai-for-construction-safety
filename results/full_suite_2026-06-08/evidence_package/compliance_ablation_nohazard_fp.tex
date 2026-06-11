@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{False-positive image rates on the 98 no-hazard images.}
+\label{tab:compliance\_nohazard\_fp}
+\begin{tabular}{lccccccc}
+\toprule
+System & system\_id & status & n\_no\_hazard\_images & fp\_images & no\_hazard\_fp\_image\_rate & no\_hazard\_specificity & not\_run\_reason \\
+\midrule
+Full GROVE & GROVE\_full\_paper\_archived & COMPUTED & 98 & 13 & 0.1327 & 0.8673 &  \\
+GROVE-NoComplianceRules & GROVE-NoComplianceRules & NOT\_RUN & 98 &  &  &  & Required qwen3.5:9b model is absent from local Ollama manifests; the Ollama server is not running and internet/model downloads are disallowed. \\
+Qwen 3.5 9B single-pass & baseline\_direct\_qwen35\_9b & COMPUTED & 98 & 65 & 0.6633 & 0.3367 &  \\
+Best single-pass baseline & baseline\_direct\_qwen35\_27b & COMPUTED & 98 & 24 & 0.2449 & 0.7551 &  \\
+\bottomrule
+\end{tabular}
+\end{table*}

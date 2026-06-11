@@ -1,0 +1,53 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Latency summary from cached original-run timing fields.}
+\label{tab:latency\_summary}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+system & status & mean\_latency\_sec & median\_latency\_sec & p90\_latency\_sec & p95\_latency\_sec & std\_latency\_sec & valid\_timing\_images & missing\_timing\_images & timing\_key & source\_path \\
+\midrule
+GROVE\_full\_paper\_archived & COMPUTED & 19.937 & 19.980 & 24.170 & 24.720 & 2.748 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/final\_evaluation\_package\_2026-05-01/results/archived\_raw\_runs/exp01\_modular\_qwen\_results/exp01\_run1.jsonl \\
+GROVE\_trace\_qwen35\_9b\_final & COMPUTED & 22.474 & 28.730 & 29.300 & 29.470 & 9.074 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+baseline\_direct\_gemma4\_26b & COMPUTED & 2.529 & 1.120 & 10.520 & 10.530 & 3.360 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_gemma4\_26b/exp\_e2e\_gemma4\_26b\_run1.jsonl \\
+baseline\_direct\_gemma4\_31b & COMPUTED & 4.890 & 3.110 & 11.190 & 12.060 & 3.814 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_gemma4\_31b/exp\_e2e\_gemma4\_31b\_run1.jsonl \\
+baseline\_direct\_gemma4\_e2b & COMPUTED & 6.802 & 7.410 & 7.710 & 7.750 & 2.078 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_gemma4\_e2b/exp\_e2e\_gemma4\_e2b\_run1.jsonl \\
+baseline\_direct\_gemma4\_e4b & COMPUTED & 7.082 & 7.500 & 7.790 & 7.930 & 1.629 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_gemma4\_e4b/exp\_e2e\_gemma4\_e4b\_run1.jsonl \\
+baseline\_direct\_llama32\_vision\_11b\_apr2026 & COMPUTED & 8.658 & 7.990 & 11.180 & 12.740 & 1.981 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_llama32\_vision\_11b\_apr2026/exp\_e2e\_llama32\_vision\_11b\_apr2026\_run1.jsonl \\
+baseline\_direct\_qwen35\_27b & COMPUTED & 7.010 & 7.820 & 13.240 & 13.450 & 4.645 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_27b/exp\_e2e\_qwen35\_27b\_run1.jsonl \\
+baseline\_direct\_qwen35\_2b & COMPUTED & 3.304 & 0.820 & 7.450 & 7.470 & 3.326 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_2b/exp\_e2e\_qwen35\_2b\_run1.jsonl \\
+baseline\_direct\_qwen35\_4b & COMPUTED & 7.883 & 8.000 & 8.260 & 8.600 & 1.189 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_4b/exp\_e2e\_qwen35\_4b\_run1.jsonl \\
+baseline\_direct\_qwen35\_9b & COMPUTED & 7.132 & 8.270 & 8.650 & 9.040 & 2.850 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_9b/exp\_e2e\_qwen35\_9b\_run1.jsonl \\
+baseline\_direct\_qwen36\_35b & COMPUTED & 8.326 & 11.020 & 11.330 & 11.420 & 3.893 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen36\_35b/exp\_e2e\_qwen36\_35b\_run1.jsonl \\
+baseline\_direct\_gemma3\_12b & COMPUTED & 8.620 & 8.820 & 11.140 & 11.320 & 1.884 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_gemma3\_12b/results/exp\_e2e\_gemma3\_12b\_run1.jsonl \\
+baseline\_direct\_gemma3\_4b & COMPUTED & 8.126 & 8.150 & 8.400 & 8.520 & 0.490 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_gemma3\_4b/results/exp\_e2e\_gemma3\_4b\_run1.jsonl \\
+baseline\_direct\_internvl3\_5\_8b & COMPUTED & 8.730 & 8.900 & 9.480 & 9.630 & 0.892 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_internvl3\_5\_8b/results/exp\_e2e\_internvl3\_5\_8b\_run1.jsonl \\
+baseline\_direct\_llama32\_vision\_11b & COMPUTED & 7.463 & 7.000 & 8.650 & 10.210 & 1.805 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_llama32\_vision\_11b/results/exp\_e2e\_llama32\_vision\_11b\_run1.jsonl \\
+baseline\_direct\_qwen\_35b & COMPUTED & 13.035 & 13.410 & 14.570 & 15.110 & 1.549 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_qwen\_35b/results/exp\_e2e\_qwen\_35b\_run1.jsonl \\
+baseline\_direct\_qwen\_4b & COMPUTED & 8.554 & 8.540 & 9.510 & 9.880 & 0.796 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_qwen\_4b/results/exp\_e2e\_qwen\_4b\_run1.jsonl \\
+baseline\_direct\_qwen\_9b & COMPUTED & 9.176 & 9.140 & 11.520 & 12.160 & 1.977 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/code\_files/exp\_e2e\_qwen\_9b/results/exp\_e2e\_qwen\_9b\_run1.jsonl \\
+ablation\_path1\_only\_no\_path2 & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_path2\_only\_no\_grounding & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_no\_reconciliation\_union & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_groundingdino\_only & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_gdino\_detr\_openclip\_stack\_only & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_qwen\_image\_only\_no\_grounding & COMPUTED & 7.132 & 8.270 & 8.650 & 9.040 & 2.850 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_9b/exp\_e2e\_qwen35\_9b\_run1.jsonl \\
+ablation\_caption\_only\_keyword\_proxy & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_image\_only\_reasoning & COMPUTED & 7.132 & 8.270 & 8.650 & 9.040 & 2.850 & 203 & 0 & total\_inference\_time\_sec & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_e2e\_qwen35\_9b/exp\_e2e\_qwen35\_9b\_run1.jsonl \\
+ablation\_no\_fallback\_grounding\_drop & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_no\_fallback\_grounding\_boxes\_removed & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_no\_path2\_verification & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_no\_path2\_stage\_correction & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+ablation\_grounded\_final\_only & N/A trace-derived &  &  &  &  &  & 0 & 203 &  & <LOCAL_EVIDENCE_ROOT>/sitecortex\_results\_2026-04-24/raw\_results/exp\_modular\_qwen35\_9b/exp\_modular\_qwen35\_9b\_run1.jsonl \\
+GROVE-NoOther-EvalOnly & N/A eval-only &  &  &  &  &  & 0 & 203 &  & Derived from GROVE\_full\_paper\_archived. \\
+GROVE-FallbackOnly & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+GROVE-NoComplianceRules & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+GROVE-NoOther-PromptRerun & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+GROVE-CaptionOnlyReasoning & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+GROVE-ImageOnlyReasoning & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+Qwen35-9B-MatchedSchema-SinglePass & NOT\_RUN &  &  &  &  &  & 0 & 203 &  &  \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

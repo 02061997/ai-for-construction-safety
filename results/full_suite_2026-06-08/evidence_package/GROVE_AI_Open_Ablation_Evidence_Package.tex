@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.6in,landscape]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[T1]{fontenc}
+\title{GROVE AI Open Ablation Evidence Package}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\input{table_1_component_ablation_completed.tex}
+\input{../grounding_sensitivity_multisystem/iog_sensitivity.tex}
+\input{../grounding_sensitivity_multisystem/iou_sensitivity.tex}
+\input{../grounding_sensitivity_multisystem/iop_sensitivity.tex}
+\input{../grounding_sensitivity_multisystem/box_label_sensitivity.tex}
+\input{compliance_ablation_nohazard_fp.tex}
+\input{no_other_ablation.tex}
+\input{no_other_per_category.tex}
+\input{latency_summary.tex}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/figure_5_threshold_sensitivity_multisystem.pdf}
+\caption{Multi-system grounding sensitivity.}
+\end{figure*}
+\input{paper_ready_sections.tex}
+\end{document}

@@ -1,0 +1,15 @@
+| ablation | f1 | delta_f1_vs_control | gt_coverage_iog03 | delta_gt_coverage_iog03_vs_control | no_box_rate | exactness |
+| --- | --- | --- | --- | --- | --- | --- |
+| ablation_path1_only_no_path2 | 0.5045 | -0.0045 | 0.7530 | 0.0000 | 0.0120 | exact_from_trace_pre_reasoning |
+| ablation_path2_only_no_grounding | 0.5271 | 0.0181 | 0.0000 | -0.7530 | 1.0000 | posthoc_lower_bound_trace_retained_only |
+| ablation_no_reconciliation_union | 0.5062 | -0.0028 | 0.7530 | 0.0000 | 0.0119 | posthoc_union_rule |
+| ablation_groundingdino_only | 0.5107 | 0.0017 | 0.7328 | -0.0202 | 0.0000 | posthoc_source_filter |
+| ablation_gdino_detr_openclip_stack_only | 0.5081 | -0.0009 | 0.7530 | 0.0000 | 0.0000 | exact_from_trace_grounded_pre_reasoning |
+| ablation_qwen_image_only_no_grounding | 0.4736 | -0.0354 | 0.0000 | -0.7530 | 1.0000 | exact_cached_direct_identification_posthoc_no_boxes |
+| ablation_caption_only_keyword_proxy | 0.2804 | -0.2286 | 0.0000 | -0.7530 | 1.0000 | fallback_caption_keyword_proxy |
+| ablation_image_only_reasoning | 0.4736 | -0.0354 | 0.3887 | -0.3643 | 0.3928 | exact_cached_direct |
+| ablation_no_fallback_grounding_drop | 0.5116 | 0.0026 | 0.7328 | -0.0202 | 0.0139 | posthoc_source_filter |
+| ablation_no_fallback_grounding_boxes_removed | 0.5090 | 0.0000 | 0.7328 | -0.0202 | 0.1507 | posthoc_box_filter |
+| ablation_no_path2_verification | 0.5045 | -0.0045 | 0.7530 | 0.0000 | 0.0120 | exact_from_trace_pre_reasoning |
+| ablation_no_path2_stage_correction | 0.5090 | 0.0000 | 0.7530 | 0.0000 | 0.0120 | posthoc_text_match |
+| ablation_grounded_final_only | 0.5126 | 0.0036 | 0.7530 | 0.0000 | 0.0000 | posthoc_grounding_filter |
