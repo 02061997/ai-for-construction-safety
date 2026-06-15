@@ -4,6 +4,22 @@ This public research companion contains the reproducibility scripts and
 paper-facing evidence package for **GROVE: Grounded OSHA Violation Evaluator
 for Construction Hazard Detection and Spatial Grounding**.
 
+![Identification F1 by system](results/full_suite_2026-06-08/plots/identification_f1_by_system.png)
+
+## Best Evidence
+
+- **What I built:** a sanitized evidence package for grounded construction
+  hazard detection, ablations, paired tests, threshold sensitivity, and claim
+  traceability.
+- **What is reproduced:** report generation, evidence tables, figures, and
+  consistency checks from committed permitted evidence.
+- **What is unavailable:** source images, model weights, private coauthor
+  materials, and archived raw inference runs.
+- **Main verified result:** GROVE identification F1 is `0.7591`; the best
+  evaluated single-pass baseline F1 is `0.5558`, with paired difference
+  `+0.2047` and `p < 0.001`.
+- **How to verify:** `uv sync --frozen && make test && make reproduce-smoke`.
+
 The repository preserves completed experiments, statistical comparisons,
 claim traceability, failure attribution, threshold sensitivity, and explicit
 `NOT_RUN` records. It does not include source images, model weights, private
