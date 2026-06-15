@@ -1,6 +1,6 @@
 .PHONY: test reproduce-smoke reproduce-results
 test:
-	PYTHONPATH=reproducibility_scripts uv run python -m compileall -q reproducibility_scripts
+	PYTHONPATH=reproducibility_scripts uv run pytest
 reproduce-smoke:
 	PYTHONPATH=reproducibility_scripts uv run python reproducibility_scripts/generate_grove_claims_report.py --help
 reproduce-results:

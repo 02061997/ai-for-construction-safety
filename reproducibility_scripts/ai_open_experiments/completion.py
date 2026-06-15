@@ -6,8 +6,6 @@ from __future__ import annotations
 import argparse
 import csv
 import html
-import json
-import math
 import random
 import shutil
 import statistics
@@ -17,7 +15,6 @@ from types import SimpleNamespace
 from typing import Any
 
 from ai_open_experiments.grounding_sensitivity import (
-    DISPLAY_SYSTEMS,
     compute_threshold_metrics,
     latex_escape,
     run_grounding_sensitivity,

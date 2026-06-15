@@ -18,7 +18,6 @@ import os
 import random
 import re
 from collections import Counter, defaultdict
-from copy import deepcopy
 from pathlib import Path
 from typing import Any, Callable
 
@@ -1433,7 +1432,6 @@ def merge_aggregate_metrics(
 
 def build_ablation_results(aggregate_rows: list[dict[str, Any]], manifest: list[dict[str, Any]]) -> list[dict[str, Any]]:
     by_system = {row["system"]: row for row in aggregate_rows}
-    manifest_by_system = {row["system"]: row for row in manifest}
     rows = []
     for meta in manifest:
         if meta["family"] != "ablation":

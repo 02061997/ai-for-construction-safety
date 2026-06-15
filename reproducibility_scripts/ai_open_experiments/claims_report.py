@@ -427,8 +427,6 @@ def build_html(
     category_rows: list[dict[str, str]],
     output_dir: Path,
 ) -> str:
-    strong = [row for row in claim_rows if row["strength"] == "Strong"]
-    moderate = [row for row in claim_rows if row["strength"] == "Moderate"]
     sparse_rows = [row for row in category_rows if row["low_support_flag"] == "1"]
     paired = {row["metric"]: row for row in paired_rows}
 
@@ -645,7 +643,7 @@ code {{ font-family: Menlo, monospace; }}
 
 
 def build_source_notes(output_dir: Path) -> str:
-    return f"""# Claims Analysis Source Notes
+    return """# Claims Analysis Source Notes
 
 ## Reporting Contract
 
