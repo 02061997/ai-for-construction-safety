@@ -1,5 +1,14 @@
 # Results
 
+Verified locally on June 15, 2026 with:
+
+```bash
+uv sync --frozen
+make test
+make reproduce-smoke
+make reproduce-results
+```
+
 The committed evidence package reports the archived paper-facing GROVE run at
 precision 0.7261, recall 0.7952, and F1 0.7591 on 203 evaluated examples.
 

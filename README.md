@@ -24,8 +24,14 @@ interpreted with the limitations in `EVIDENCE_PACKAGE.md`.
 ```bash
 uv sync
 make test
+make reproduce-smoke
 make reproduce-results
 ```
+
+The evidence package distinguishes computed, cached, post-hoc, proxy, and
+`NOT_RUN` rows. The public repository is a sanitized companion: source images,
+private raw inference runs, model weights, and coauthor-only materials are not
+redistributed.
 
 This repository accompanies ongoing collaborative research. Publication
 metadata and the final paper citation will be added after manuscript release.
